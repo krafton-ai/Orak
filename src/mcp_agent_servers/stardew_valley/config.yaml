@@ -1,0 +1,13 @@
+# logging: true
+env_name: StardewValley
+log_path: "logs"
+# agent configuration
+agent:
+  # llm_name: Qwen/Qwen2.5-7B-Instruct
+  llm_name: gpt-4o-2024-05-13
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: reflection_planning_agent
+  prompt_path: mcp_agent_servers.stardew_valley.prompts.earn_money.text.reflection_planning_agent

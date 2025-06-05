@@ -1,0 +1,41 @@
+ahk
+ahk-binary
+backoff
+openai
+python-dotenv
+numpy
+tiktoken
+colorama
+pyautogui
+pydirectinput; sys_platform == "win32"
+opencv-python
+opencv-contrib-python
+pillow>=10.3.0
+Multi-Template-Matching==1.6.6
+imageio[ffmpeg]
+mss
+aiohttp
+easyocr
+spacy
+chardet
+matplotlib
+supervision
+pyobjc-framework-Quartz; sys_platform == "darwin"
+pyobjc-framework-Cocoa; sys_platform == "darwin"
+git+https://github.com/facebookresearch/segment-anything.git
+pywin32; sys_platform == "win32"
+dataclass_wizard
+dill
+anthropic
+omegaconf
+# gym
+gymnasium==1.1.1
+mcp[cli]
+transformers
+tenacity
+termcolor
+langchain-openai
+langchain-chroma
+dacite
+pygame 
+google-genai

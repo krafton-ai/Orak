@@ -1,0 +1,25 @@
+# logging: true
+env_name: SlayTheSpire
+log_path: "logs"
+runner:
+  max_steps: 200
+env:
+  task: "Slay the Spire"
+  player_class: "IRONCLAD"
+  ascension_level: 0
+  seed: 0
+  input_modality: "text"
+
+# agent configuration
+agent:
+  llm_name: gpt-4o
+  api_key: "token-abc123"
+  api_base_url: "http://100.66.5.135:8000/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: reflection_planning_agent
+  prompt_path: mcp_agent_servers.slay_the_spire.prompts.text.reflection_planning_agent
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\slay_the_spire\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\slay_the_spire\\server.py"

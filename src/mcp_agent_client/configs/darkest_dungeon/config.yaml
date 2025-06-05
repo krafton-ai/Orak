@@ -1,0 +1,26 @@
+# logging: true
+env_name: "DarkestDungeon"
+log_path: "logs"
+runner:
+  max_steps: 200
+env:
+  task: first_embark_after_tutorial
+  save_editor_path: "src/mcp_game_servers/darkest_dungeon/game/utils"
+  game_install_location: "C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon"
+  steam_user_id: 1862215842
+  profile_number: 0
+  input_modality: "text"
+
+# Agent configuration
+agent:
+  llm_name: gpt-4o-mini
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.7
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.darkest_dungeon.prompts.text.zeroshot_agent
+
+# mcp configuration
+game_server: "./src/mcp_game_servers/darkest_dungeon/server.py"
+agent_server: "./src/mcp_agent_servers/darkest_dungeon/server.py"

@@ -1,0 +1,1 @@
+from .star_craft_multi_env import StarCraftMultiEnv

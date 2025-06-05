@@ -1,0 +1,28 @@
+# logging: true
+env_name: "StreetFighter"
+log_path: "logs"
+runner:
+  max_steps: 10000
+env:
+  difficulty: 1
+  character: "Ken" # Ken, Chun-Li, Q
+  task: "Defeat Opponent"
+  input_modality: "text"
+
+# DIAMBRA specific settings for Street Fighter
+diambra_settings:
+  rom_path: "C:/Users/bjchoi92/refactor/gamingslm/executables/streetfighter3/roms"
+
+# Agent configuration
+agent:
+  llm_name: gpt-4o # meta-llama/Llama-3.2-3B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.street_fighter.prompts.text.zeroshot_agent
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\street_fighter\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\street_fighter\\server.py"

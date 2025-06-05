@@ -1,0 +1,7 @@
+# logging: true
+env_name: "BabaIsYou"
+log_path: ./logs
+env:
+  state_json_path: "%APPDATA%/Baba_Is_You/state.ba" # "~/Library/Application Support/Baba_Is_You/state.ba" fo MacOS
+  task: "where do i go?" # Name of Level 1
+  input_modality: "text" # text, image, or text_image

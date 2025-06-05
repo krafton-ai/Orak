@@ -1,0 +1,23 @@
+# logging: true
+env_name: "SuperMario"
+log_path: "logs"
+runner:
+  max_steps: 100
+env:
+  task: Complete stage 1-1
+  input_modality: "text" # text, image, text_image
+  logging: false
+
+# Agent configuration
+agent:
+  llm_name: gpt-4o-mini # Qwen/Qwen2.5-7B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 1.0
+  repetition_penalty: 1.0
+  agent_type: reflection_planning_agent
+  prompt_path: mcp_agent_servers.super_mario.prompts.text.reflection_planning_agent
+
+# mcp configuration
+game_server: "./src/mcp_game_servers/super_mario/server.py"
+agent_server: "./src/mcp_agent_servers/super_mario/server.py"

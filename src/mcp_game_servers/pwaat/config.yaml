@@ -1,0 +1,9 @@
+# logging: true
+env_name: Pwaat
+log_path: ./logs
+env:
+  task: "cross_examination_1" # multiple_choice, cross_examination_
+  input_modality: "text_image"
+  state_root_dir: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Phoenix Wright Ace Attorney Trilogy\\logs"
+  conversation_history_len: 20
+  auto_savedfile: true

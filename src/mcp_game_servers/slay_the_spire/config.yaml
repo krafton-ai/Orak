@@ -1,0 +1,9 @@
+# logging: true
+env_name: SlayTheSpire
+log_path: "logs"
+env:
+  task: "Slay the Spire"
+  player_class: "IRONCLAD"
+  ascension_level: 0
+  seed: 0
+  input_modality: "text"

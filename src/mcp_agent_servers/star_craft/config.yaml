@@ -1,0 +1,18 @@
+# general configuration
+# logging: true
+
+# environment configuration
+env_name: StarCraft
+log_path: ./logs
+agent:
+  llm_name: gpt-4o-mini
+  # llm_name: deepseek-reasoner
+  # llm_name: claude-3-7-sonnet-20250219
+  # llm_name: gemini-2.5-pro-preview-03-25
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.1
+  repetition_penalty: 1.0
+  debug_mode: false
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.star_craft.prompts.text.zeroshot_agent

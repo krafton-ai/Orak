@@ -1,0 +1,36 @@
+# logging: true
+env_name: HerStory
+log_path: "logs"
+runner:
+  max_steps: 400
+env:
+  state_path: "C:/Program Files (x86)/Steam/steamapps/common/HER STORY/game_log.txt"  # "~/Library/Application Support/Steam/steamapps/common/HER STORY/game_log.txt"
+  speedrun: true
+  max_steps: 400
+  sleep_time: 0.2
+  sleep_time_fadein: 5.0
+  stop_after_ending: false
+  reset_after_stop: false
+  task: Watch the interview clips to understand the main incident
+  input_modality: "text"  # "text", "text_image"
+  window_capture_mode: "bitblt"  # "bitblt", "mss", "dxcam"
+  image_max_bytes: 5242880
+  keyword_max_length: 30
+  censor_contents: false  # gemini: "true"
+  io_env:
+    env_name: "HerStory"
+    win_name_pattern: "^HerStory$"  # Windows: "^HerStory$", macOS: "^Her Story$"
+
+# agent configuration
+agent:
+  llm_name: gpt-4o #Llama-3.2-1B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.3
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent  # zeroshot_agent, reflection_agent, planning_agent, reflection_planning_agent
+  prompt_path: mcp_agent_servers.her_story.prompts.text.zeroshot_agent
+
+# mcp configuration
+game_server: "./src/mcp_game_servers/her_story/server.py"
+agent_server: "./src/mcp_agent_servers/her_story/server.py"

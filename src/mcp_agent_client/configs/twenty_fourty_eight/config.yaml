@@ -1,0 +1,24 @@
+# logging: true
+env_name: "TwentyFourtyEight"
+log_path: "logs"
+runner:
+  max_steps: 10000
+env:
+  task: "Merge Tiles to Reach the Target"
+  show_graphic: True
+  target_tile: 2048
+  input_modality: "text"
+
+# Agent configuration
+agent:
+  llm_name: gpt-4o-mini # Qwen/Qwen2.5-7B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.twenty_fourty_eight.prompts.text.zeroshot_agent
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\twenty_fourty_eight\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\twenty_fourty_eight\\server.py"

@@ -1,0 +1,22 @@
+
+PROMPT = (
+    f"### Current state\n"
+    f"{{cur_state_str}}\n\n"
+    f"### Current subtask\n"
+    f"{{subtask_description}}\n\n"
+    f"### Current subtask progression\n"
+    f"{{self_reflection_summary}}\n\n"
+    f"You should only respond in the format described below:\n\n"
+    f"### Analysis\n"
+    f"1. ...\n"
+    f"2. ...\n"
+    f"3. ...\n"
+    f"...\n\n"
+    f"### Subtask planning\n"
+    f"1. ...\n"
+    f"2. ...\n"
+    f"3. ...\n"
+    f"...\n\n"
+    f"### Subtask\n"
+    f"...\n\n"
+)

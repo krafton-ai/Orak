@@ -1,0 +1,29 @@
+# logging: true
+env_name: "Minecraft"
+log_path: "logs"
+runner:
+  max_steps: 100
+env:
+  task: craft 1 golden sword
+  input_modality: "text" # text
+  success_condition: golden_sword
+  world_seed: 42
+  azure_login_path: keys/azure-login/azure_login.json
+  server_host: http://127.0.0.1
+  server_port: 3000
+  request_timeout: 600
+  logging: false
+
+# Agent configuration
+agent:
+  llm_name: gpt-4o-mini # Qwen/Qwen2.5-7B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 1.0
+  repetition_penalty: 1.0
+  agent_type: skill_management_agent
+  prompt_path: mcp_agent_servers.minecraft.prompts.text.skill_management_agent
+
+# mcp configuration
+game_server: "./src/mcp_game_servers/minecraft/server.py"
+agent_server: "./src/mcp_agent_servers/minecraft/server.py"

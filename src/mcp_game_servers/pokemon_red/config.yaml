@@ -1,0 +1,10 @@
+# logging: true
+env_name: "PokemonRed"
+log_path: ./logs
+env:
+  task: DefeatBrock
+  input_modality: "text"
+  exp_name: "gpt-4o_text_pokemon_trial1"
+  rom_path: ./executables/pokemon_red/pyboy/pokered.gbc
+  success_condition: get_boulder_badge
+

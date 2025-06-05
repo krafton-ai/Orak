@@ -1,0 +1,425 @@
+{
+    "base_root" : {
+        "version" : 40993,
+        "raid_instance" : {
+            "id" : "plot_tutorial_crypts",
+            "map_name" : "tutorial_crypts",
+            "torch_setting" : "",
+            "raid_rules_override" : "",
+            "is_plot_quest" : true,
+            "type" : "explore",
+            "dungeon" : "crypts",
+            "difficulty" : 1,
+            "length" : 1,
+            "counted_in_generation" : true,
+            "goal_ids" : ["explore_all_rooms"],
+            "progression_goal_ids" : 0,
+            "use_default_progression_goals" : true,
+            "completion_reward" : {
+                "resolve_xp" : 2,
+                "resolve_xp_per_wave_kill" : 0,
+                "items_definition" : {
+                    "items" : {
+                        "0" : {
+                            "id" : "",
+                            "type" : "gold",
+                            "amount" : 3000
+                        },
+                        "1" : {
+                            "id" : "crest",
+                            "type" : "heirloom",
+                            "amount" : 4
+                        },
+                        "2" : {
+                            "id" : "health_stone",
+                            "type" : "trinket",
+                            "amount" : 1
+                        }
+                    }
+                },
+                "additional_threshold_trinket_rewards" : { },
+                "trinket_retention_ids" : [],
+                "max_times_dungeon_xp_awarded" : 0
+            },
+            "threshold_rewards" : { },
+            "completion_threshold" : 0,
+            "is_from_town_event" : false,
+            "explore_all_rooms" : {
+                "explored_room_count" : 2,
+                "target_room_count" : 7
+            },
+            "town_progression_goals" : {
+                "town_progression_explore" : {
+                    "explored_room_count" : 2,
+                    "target_room_count" : 3
+                },
+                "town_progression_battle" : {
+                    "current_battle_count" : 0,
+                    "target_battle_count" : 2
+                },
+                "town_progression_trait" : {
+                    "current_trait_count" : 0,
+                    "target_trait_count" : 1
+                },
+                "town_progression_deaths_door" : {
+                    "current_deaths_door_count" : 0,
+                    "target_deaths_door_count" : 1
+                }
+            }
+        },
+        "in_area" : 1198485362,
+        "start_elapsed_time" : 1136059074,
+        "teleported" : false,
+        "torchlight" : 1116471296,
+        "ambush_start_torchlight" : 0,
+        "shard_consume_percent" : 0,
+        "areatile" : 1,
+        "last_room_id" : 1215459171,
+        "in_doorway" : {
+            "area_to" : 1701736302,
+            "tile_to" : 0,
+            "implied" : true
+        },
+        "party" : {
+            "IsMovingLeft()" : false,
+            "retreat_room" : 1198485362,
+            "heroes" : [1, 2, 7, 8],
+            "start_heroes_size" : 4,
+            "inventory" : {
+                "items" : {
+                    "0" : {
+                        "id" : "holy_water",
+                        "type" : "supply",
+                        "amount" : 1
+                    },
+                    "1" : {
+                        "id" : "antivenom",
+                        "type" : "supply",
+                        "amount" : 1
+                    },
+                    "2" : {
+                        "id" : "",
+                        "type" : "provision",
+                        "amount" : 8
+                    },
+                    "3" : {
+                        "id" : "torch",
+                        "type" : "supply",
+                        "amount" : 8
+                    }
+                }
+            },
+            "hunger_room_buffer" : 1
+        },
+        "stat_database" : {
+            "UNDEFINED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "ROOM_VISITED" : {
+                "count" : 3,
+                "entries" : {
+                    "0" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1136059074,
+                        "count" : 1,
+                        "parameters" : {
+                            "0" : {
+                                "type" : 8,
+                                "data_type" : 6,
+                                "data" : 1215262578
+                            }
+                        }
+                    },
+                    "1" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1136257056,
+                        "count" : 1,
+                        "parameters" : {
+                            "0" : {
+                                "type" : 8,
+                                "data_type" : 6,
+                                "data" : 1215262578
+                            }
+                        }
+                    },
+                    "2" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150671959,
+                        "count" : 1,
+                        "parameters" : {
+                            "0" : {
+                                "type" : 8,
+                                "data_type" : 6,
+                                "data" : 1198485362
+                            }
+                        }
+                    }
+                }
+            },
+            "BATTLE_COMPLETED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "HALLWAY_STEP_COMPLETED" : {
+                "count" : 5,
+                "entries" : {
+                    "0" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1145464243,
+                        "count" : 0,
+                        "parameters" : { }
+                    },
+                    "1" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1145494546,
+                        "count" : 0,
+                        "parameters" : { }
+                    },
+                    "2" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150608461,
+                        "count" : 0,
+                        "parameters" : { }
+                    },
+                    "3" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150623224,
+                        "count" : 0,
+                        "parameters" : { }
+                    },
+                    "4" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150637962,
+                        "count" : 0,
+                        "parameters" : { }
+                    }
+                }
+            },
+            "MONSTER_DEFEATED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "MONSTER_ENCOUNTERED" : {
+                "count" : 2,
+                "entries" : {
+                    "0" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150677747,
+                        "count" : 2,
+                        "parameters" : {
+                            "0" : {
+                                "type" : 16,
+                                "data_type" : 5,
+                                "data" : -1822727563
+                            },
+                            "1" : {
+                                "type" : 32,
+                                "data_type" : 5,
+                                "data" : -440702535
+                            }
+                        }
+                    },
+                    "1" : {
+                        "value" : 1065353216,
+                        "time_stamp" : 1150677747,
+                        "count" : 2,
+                        "parameters" : {
+                            "0" : {
+                                "type" : 16,
+                                "data_type" : 5,
+                                "data" : -1822727563
+                            },
+                            "1" : {
+                                "type" : 32,
+                                "data_type" : 5,
+                                "data" : -440702535
+                            }
+                        }
+                    }
+                }
+            },
+            "AMBUSHED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "CURIO_INVESTIGATED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "TRAIT_APPLIED" : {
+                "count" : 0,
+                "entries" : { }
+            },
+            "DEATHS_DOOR_APPLIED" : {
+                "count" : 0,
+                "entries" : { }
+            }
+        },
+        "camp" : {
+            "phase" : 0,
+            "camping_skill_points" : 0,
+            "skill_log" : { },
+            "party_skill_log" : { },
+            "camp_finish_flashback_class_id" : 0
+        },
+        "inbattle" : true,
+        "battle" : {
+            "before_turn_save" : false,
+            "monster_actor_guid_offset" : 2,
+            "seed" : 1949345339,
+            "round_stall_count" : 0,
+            "previous_stall_accelerated" : false,
+            "enemies" : {
+                "0" : {
+                    "is_hero" : false,
+                    "data" : {
+                        "battle_guid" : 14,
+                        "monster_class" : "skeleton_common_A",
+                        "can_spawn_loot" : true,
+                        "previous_monster_class" : 0,
+                        "actor" : {
+                            "name" : "Bone Rabble",
+                            "current_hp" : 8.0,
+                            "stunned" : 0,
+                            "combat_ready" : false,
+                            "damage_source_data" : 0,
+                            "damage_source_type" : 0,
+                            "damage_type" : 0,
+                            "colour_variation" : -1,
+                            "enemy_rank_targets" : 0,
+                            "friendly_rank_targets" : 0,
+                            "performing_turn" : 0,
+                            "controlling_actor_guid" : 0,
+                            "controlling_duration" : 0,
+                            "current_mode_id" : 0,
+                            "rounds_in_ranks" : 0,
+                            "check_round_ranks" : 1,
+                            "health_damage_blocks" : 0,
+                            "buff_group_next_guid" : 0,
+                            "buff_group" : { },
+                            "actor_dot" : { }
+                        },
+                        "death_class" : {
+                            "monster_class_id" : 2131984264
+                        },
+                        "monster_brain" : {
+                            "skill_cooldown_keys" : [],
+                            "skill_cooldown_values" : []
+                        }
+                    }
+                },
+                "1" : {
+                    "is_hero" : false,
+                    "data" : {
+                        "battle_guid" : 15,
+                        "monster_class" : "skeleton_common_A",
+                        "can_spawn_loot" : true,
+                        "previous_monster_class" : 0,
+                        "actor" : {
+                            "name" : "Bone Rabble",
+                            "current_hp" : 1.0,
+                            "stunned" : 0,
+                            "combat_ready" : false,
+                            "damage_source_data" : 2,
+                            "damage_source_type" : 6,
+                            "damage_type" : 4,
+                            "colour_variation" : -1,
+                            "enemy_rank_targets" : 0,
+                            "friendly_rank_targets" : 0,
+                            "performing_turn" : 0,
+                            "controlling_actor_guid" : 0,
+                            "controlling_duration" : 0,
+                            "current_mode_id" : 0,
+                            "rounds_in_ranks" : 0,
+                            "check_round_ranks" : 2,
+                            "health_damage_blocks" : 0,
+                            "buff_group_next_guid" : 0,
+                            "buff_group" : { },
+                            "actor_dot" : { }
+                        },
+                        "death_class" : {
+                            "monster_class_id" : 2131984264
+                        },
+                        "monster_brain" : {
+                            "skill_cooldown_keys" : [],
+                            "skill_cooldown_values" : []
+                        }
+                    }
+                }
+            },
+            "round" : 1,
+            "party_surprised" : false,
+            "monsters_surprised" : false,
+            "retreatattempts" : 0,
+            "current_hero_consecutive_miss_acc_buff" : 0,
+            "consecutive_hero_stun_counts" : { },
+            "consecutive_monster_stun_counts" : { },
+            "consecutive_monster_dodges" : 0,
+            "consecutive_monster_crits" : 0,
+            "initiative" : {
+                "heroes" : {
+                    "0" : {
+                        "roster_guid" : 2,
+                        "initiative" : 1095769260,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    },
+                    "1" : {
+                        "roster_guid" : 7,
+                        "initiative" : 1092623532,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    },
+                    "2" : {
+                        "roster_guid" : 8,
+                        "initiative" : 1090523234,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    },
+                    "3" : {
+                        "roster_guid" : 1,
+                        "initiative" : 1086326833,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    }
+                },
+                "monsters" : {
+                    "0" : {
+                        "battle_guid" : 14,
+                        "initiative" : 1086326833,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    },
+                    "1" : {
+                        "battle_guid" : 15,
+                        "initiative" : 1086326833,
+                        "is_bonus" : false,
+                        "combat_skill_id_override" : 0
+                    }
+                }
+            },
+            "currentturn" : 0,
+            "flashback_class_id" : 0
+        },
+        "loot" : {
+            "queue" : { },
+            "queue_items" : {
+                "items" : { }
+            },
+            "owned_items" : {
+                "items" : { }
+            }
+        },
+        "has_mash_data" : true,
+        "mash" : {
+            "conditional_entry_counts" : { },
+            "valid_additional_mash_entry_indexes" : []
+        },
+        "boss_last_blow_hero_guid" : 0,
+        "ancestor_narration_index" : 0,
+        "combat_start_turn_act_out_counts" : { },
+        "raid_finish_quirk_monster_class_ids" : [],
+        "number_of_flashbacks" : 0
+    }
+}

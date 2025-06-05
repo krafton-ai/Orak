@@ -1,0 +1,29 @@
+{"timestamp": "2025-04-02 17:07:37", "speaker": "2", "conversation": "My name is Phoenix Wright."}|{"timestamp": "2025-04-02 17:07:40", "speaker": "2", "conversation": "Here's the story:"}|{"timestamp": "2025-04-02 17:07:46", "speaker": "2", "conversation": "My first case is
+a fairly simple one."}|{"timestamp": "2025-04-02 17:07:55", "speaker": "2", "conversation": "A young woman was killed
+in her apartment."}|{"timestamp": "2025-04-02 17:07:57", "speaker": "2", "conversation": "The guy they arrested was
+the unlucky sap dating her:"}|{"timestamp": "2025-04-02 17:08:00", "speaker": "2", "conversation": "Larry Butz... my best
+friend since grade school."}|{"timestamp": "2025-04-02 17:08:09", "speaker": "2", "conversation": "Our school had a saying:
+\"<color=#ff0000>When something smells,</color>
+<color=#ff0000>it's usually the Butz.</color>\""}|{"timestamp": "2025-04-02 17:08:14", "speaker": "2", "conversation": "In the 23 years I've known
+him, it's usually been true."}|{"timestamp": "2025-04-02 17:08:18", "speaker": "2", "conversation": "He has a knack for getting
+himself in trouble."}|{"timestamp": "2025-04-02 17:08:25", "speaker": "2", "conversation": "One thing I can say though:
+it's usually not his fault.
+He just has terrible luck."}|{"timestamp": "2025-04-02 17:08:31", "speaker": "2", "conversation": "But I know better than anyone,
+that he's a good guy at heart."}|{"timestamp": "2025-04-02 17:08:42", "speaker": "2", "conversation": "That and I owe him one.
+Which is why I took the
+case... to clear his name."}|{"timestamp": "2025-04-02 17:08:45", "speaker": "2", "conversation": "And that's just what I'm
+going to do!"}|{"timestamp": "2025-04-02 17:08:50", "speaker": "0", "conversation": "<color=#00f000>August 3, 10:00 AM</color>
+<color=#00f000>District Court</color>
+<color=#00f000>Courtroom No. 2</color>"}|{"timestamp": "2025-04-02 17:09:02", "speaker": "8", "conversation": "Court is now in session for
+the trial of Mr. Larry Butz."}|{"timestamp": "2025-04-02 17:09:03", "speaker": "10", "conversation": "The prosecution is ready,
+Your Honor."}|{"timestamp": "2025-04-02 17:09:11", "speaker": "2", "conversation": "The, um, defense is ready,
+Your Honor."}|{"timestamp": "2025-04-02 17:09:13", "speaker": "8", "conversation": "Ahem."}|{"timestamp": "2025-04-02 17:09:16", "speaker": "8", "conversation": "Mr. Wright?"}|{"timestamp": "2025-04-02 17:09:22", "speaker": "8", "conversation": "This is your first trial,
+is it not?"}|{"timestamp": "2025-04-02 17:09:26", "speaker": "2", "conversation": "Y-Yes, Your Honor.
+I'm, um, a little nervous."}|{"timestamp": "2025-04-02 17:09:30", "speaker": "8", "conversation": "Your conduct during this
+trial will decide the fate
+of your client."}|{"timestamp": "2025-04-02 17:09:50", "speaker": "8", "conversation": "Murder is a serious charge.
+For your client's sake, I hope
+you can control your nerves."}|{"timestamp": "2025-04-02 17:09:54", "speaker": "2", "conversation": "Thank... thank you, Your Honor."}|{"timestamp": "2025-04-02 17:09:56", "speaker": "8", "conversation": "..."}|{"timestamp": "2025-04-02 17:09:59", "speaker": "8", "conversation": "Mr. Wright, given the
+circumstances..."}|{"timestamp": "2025-04-02 17:10:01", "speaker": "8", "conversation": "I think we should have a test
+to ascertain your readiness."}|{"timestamp": "2025-04-02 17:10:10", "speaker": "2", "conversation": "Yes, Your Honor."}|{"timestamp": "2025-04-02 17:10:14", "speaker": "2", "conversation": "<color=#68c0f0>(Gulp... Hands shaking... </color>
+<color=#68c0f0>Eyesight... fading...)</color>"}

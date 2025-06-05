@@ -1,0 +1,2 @@
+Place your Street Fighter III rom file (sfiii3n.zip) to this directory.
+Refer to the Diambra official installation guide (https://docs.diambra.ai/#installation) for downloading Street Fighter III rom file and checking its validity.

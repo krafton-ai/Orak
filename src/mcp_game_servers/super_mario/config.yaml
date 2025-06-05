@@ -1,0 +1,7 @@
+# logging: true
+env_name: SuperMario
+log_path: ./logs
+env:
+  task: Complete stage 1-1
+  input_modality: "text" # text, image+text
+  logging: false

@@ -1,0 +1,17 @@
+# flake8: noqa
+
+PROMPT = (
+    f"Current State (text):\n"
+    f"{{cur_state_str}}\n\n"
+    f"Current Screen (image screenshot):\n"
+    f"<|cur_state_image|>\n\n"
+    f"Last Court Record:\n"
+    f"{{last_record}}\n\n"
+    f"Last Decisions:\n"
+    f"{{last_decisions}}\n\n"
+    f"Analysis:\n"
+    f"{{analysis}}\n\n"
+    f"You should only respond in the format as described below.\n"
+    f"### Subtask\n"
+    f"[A one-sentence description of the planned action for execution on this screen.]\n\n"
+)

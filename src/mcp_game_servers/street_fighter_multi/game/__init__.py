@@ -1,0 +1,1 @@
+from .street_fighter_multi_env import StreetFighterMultiEnv

@@ -1,0 +1,17 @@
+# general configuration
+# logging: true
+
+# environment configuration
+env_name: StarCraft
+log_path: ./logs
+env:
+  task: 1 vs 1 battle againt built-in ai
+  input_modality: "text" # text, image, text_image
+  map_idx: 1
+  player_race: Protoss
+  bot_race: Zerg
+  bot_difficulty: 4 # 0-9, 0: VeryEasy, 9: CheatInsane
+  bot_build: 2 # 0: random, 1: rush, 2: timing, 3: power, 4: macro, 5: air
+  query_interval: 10
+  num_summaries: 1
+  num_actions: 5

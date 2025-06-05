@@ -1,0 +1,2557 @@
+{
+    "base_root" : {
+        "version" : 5,
+        "map" : {
+            "bounds" : [1.0, 15.0, 1.0, 22.0],
+            "populated" : true,
+            "entrance_id" : 1215262578,
+            "final_room_id" : 0,
+            "static_dynamic" : {
+                "static_save" : {
+                    "base_root" : {
+                        "areas" : {
+                            "rooA" : {
+                                "id" : 1097822066,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1098018659,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1114795875,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "cur" : 1140678991,
+                                        "obstacle" : 0,
+                                        "area_id" : 1097822066,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 1.0],
+                                        "texture_id" : 6,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corA" : {
+                                "id" : 1098018659,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1097822066,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [2.0, 1.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [3.0, 1.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [4.0, 1.0],
+                                        "texture_id" : 105,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [5.0, 1.0],
+                                        "texture_id" : 104,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [6.0, 1.0],
+                                        "texture_id" : 101,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1098018659,
+                                        "door_to" : {
+                                            "area_to" : 1114599282,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [7.0, 1.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooB" : {
+                                "id" : 1114599282,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1131573091,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1148350307,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1098018659,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114599282,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 1.0],
+                                        "texture_id" : 2,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corB" : {
+                                "id" : 1114795875,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1097822066,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 2.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 3.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "cur" : -2122369512,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 4.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 5.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 6.0],
+                                        "texture_id" : 105,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1114795875,
+                                        "door_to" : {
+                                            "area_to" : 1148153714,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 7.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooC" : {
+                                "id" : 1131376498,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1165127523,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1131573091,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131376498,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 1.0],
+                                        "texture_id" : 6,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corC" : {
+                                "id" : 1131573091,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1114599282,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [9.0, 1.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "cur" : -817151165,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [10.0, 1.0],
+                                        "texture_id" : 101,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [11.0, 1.0],
+                                        "texture_id" : 104,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [12.0, 1.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [13.0, 1.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1131573091,
+                                        "door_to" : {
+                                            "area_to" : 1131376498,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [14.0, 1.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooD" : {
+                                "id" : 1148153714,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1181904739,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1198681955,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1114795875,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148153714,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 8.0],
+                                        "texture_id" : 4,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corD" : {
+                                "id" : 1148350307,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1114599282,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 2.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 3.0],
+                                        "texture_id" : 105,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 4.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 5.0],
+                                        "texture_id" : 101,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 6.0],
+                                        "texture_id" : 104,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1148350307,
+                                        "door_to" : {
+                                            "area_to" : 1164930930,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 7.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooE" : {
+                                "id" : 1164930930,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1181904739,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1148350307,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "cur" : 932141079,
+                                        "obstacle" : 0,
+                                        "area_id" : 1164930930,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [8.0, 8.0],
+                                        "texture_id" : 4,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corE" : {
+                                "id" : 1165127523,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1131376498,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 2.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 3.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 4.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 5.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 1367703276,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 6.0],
+                                        "texture_id" : 104,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1165127523,
+                                        "door_to" : {
+                                            "area_to" : 1181708146,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 7.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooF" : {
+                                "id" : 1181708146,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1165127523,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "cur" : 283272093,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181708146,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [15.0, 8.0],
+                                        "texture_id" : 7,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corF" : {
+                                "id" : 1181904739,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1148153714,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [2.0, 8.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [3.0, 8.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [4.0, 8.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "cur" : -816853549,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [5.0, 8.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [6.0, 8.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1181904739,
+                                        "door_to" : {
+                                            "area_to" : 1164930930,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [7.0, 8.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooG" : {
+                                "id" : 1198485362,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1215459171,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1198681955,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "cur" : -778689652,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198485362,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 15.0],
+                                        "texture_id" : 4,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corG" : {
+                                "id" : 1198681955,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1148153714,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 9.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 10.0],
+                                        "texture_id" : 100,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 11.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 1367703276,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 12.0],
+                                        "texture_id" : 105,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 13.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1198681955,
+                                        "door_to" : {
+                                            "area_to" : 1198485362,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 14.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "rooH" : {
+                                "id" : 1215262578,
+                                "kind" : 0,
+                                "bounds" : [-960.0, 960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1215459171,
+                                    "tile_to" : 5,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 3,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215262578,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 22.0],
+                                        "texture_id" : 0,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 0,
+                                        "sidepos" : [960.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            },
+                            "corH" : {
+                                "id" : 1215459171,
+                                "kind" : 1,
+                                "bounds" : [-360.0, 3960.0],
+                                "name" : "",
+                                "torch" : true,
+                                "door0" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door1" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door2" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door3" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door4" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door5" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door6" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "door7" : {
+                                    "area_to" : 1701736302,
+                                    "tile_to" : 0,
+                                    "implied" : true,
+                                    "type" : 0
+                                },
+                                "tiles" : {
+                                    "tile0" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1198485362,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 16.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [0.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile1" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 17.0],
+                                        "texture_id" : 100,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [720.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile2" : {
+                                        "type" : 1,
+                                        "cur" : 1645838743,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 18.0],
+                                        "texture_id" : 100,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [1440.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile3" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 19.0],
+                                        "texture_id" : 106,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2160.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile4" : {
+                                        "type" : 1,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1701736302,
+                                            "tile_to" : 0,
+                                            "implied" : true,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 20.0],
+                                        "texture_id" : 103,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [2880.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    },
+                                    "tile5" : {
+                                        "type" : 2,
+                                        "obstacle" : 0,
+                                        "area_id" : 1215459171,
+                                        "door_to" : {
+                                            "area_to" : 1215262578,
+                                            "tile_to" : 0,
+                                            "implied" : false,
+                                            "type" : 0
+                                        },
+                                        "mappos" : [1.0, 21.0],
+                                        "texture_id" : 200,
+                                        "is_texture_override_valid" : true,
+                                        "front_texture_id" : 1,
+                                        "sidepos" : [3600.0, 0.0],
+                                        "hd_always_accessible" : false
+                                    }
+                                }
+                            }
+                        },
+                        "ext_data" : {
+                            "tile_textures" : { }
+                        }
+                    }
+                },
+                "areas" : {
+                    "rooA" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 10,
+                                "curio_prop" : 1140678991,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : 3,
+                                "mash_type" : 3,
+                                "mash_name" : "tutorial_mash_03",
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corA" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 3,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 1747513427,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooB" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corB" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 7,
+                                "curio_prop" : -2122369512,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooC" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corC" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 7,
+                                "curio_prop" : -817151165,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 8,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooD" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corD" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 3,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 1747513427,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooE" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 6,
+                                "curio_prop" : 932141079,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : 4,
+                                "mash_type" : 3,
+                                "mash_name" : "tutorial_mash_04",
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corE" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 4,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooF" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 10,
+                                "curio_prop" : 283272093,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : 5,
+                                "mash_type" : 3,
+                                "mash_name" : "tutorial_mash_05",
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corF" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 7,
+                                "curio_prop" : -816853549,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooG" : {
+                        "knowledge" : 3,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 0,
+                                "content" : 10,
+                                "curio_prop" : -778689652,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : 1,
+                                "mash_type" : 3,
+                                "mash_name" : "tutorial_mash_01",
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corG" : {
+                        "knowledge" : 1,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 1,
+                                "content" : 1,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : 2,
+                                "mash_type" : 3,
+                                "mash_name" : "tutorial_mash_02",
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 1,
+                                "content" : 4,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 1,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 1,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "rooH" : {
+                        "knowledge" : 3,
+                        "reversed" : false,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    },
+                    "corH" : {
+                        "knowledge" : 3,
+                        "reversed" : true,
+                        "tiles" : {
+                            "tile0" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile1" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile2" : {
+                                "light" : 0,
+                                "content" : 7,
+                                "curio_prop" : 1645838743,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile3" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile4" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            },
+                            "tile5" : {
+                                "light" : 0,
+                                "content" : 0,
+                                "curio_prop" : 0,
+                                "knowledge" : 3,
+                                "trap" : 0,
+                                "mash_index" : -1,
+                                "mash_type" : 7,
+                                "crit_scout" : false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

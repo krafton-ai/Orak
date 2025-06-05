@@ -1,0 +1,20 @@
+# logging: true
+env_name: HerStory
+log_path: "logs"
+env:
+  state_path: "C:/Program Files (x86)/Steam/steamapps/common/HER STORY/game_log.txt"  # "~/Library/Application Support/Steam/steamapps/common/HER STORY/game_log.txt"
+  speedrun: true
+  max_steps: 400
+  sleep_time: 0.2
+  sleep_time_fadein: 5.0
+  stop_after_ending: false
+  reset_after_stop: false
+  task: Watch the interview clips to understand the main incident
+  input_modality: "text"  # "text", "text_image"
+  window_capture_mode: "bitblt"  # "bitblt", "mss", "dxcam"
+  image_max_bytes: 5242880
+  keyword_max_length: 30
+  censor_contents: false  # gemini: "true"
+  io_env:
+    env_name: "HerStory"
+    win_name_pattern: "^HerStory$"  # Windows: "^HerStory$", macOS: "^Her Story$"

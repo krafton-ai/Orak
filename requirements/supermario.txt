@@ -1,0 +1,8 @@
+google-auth
+google-auth-oauthlib
+numpy==1.26.4
+gym==0.26.2
+gym_super_mario_bros
+nes-py==8.2.1
+torch
+scikit-image

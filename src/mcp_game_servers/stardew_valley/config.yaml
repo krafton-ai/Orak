@@ -1,0 +1,20 @@
+# logging: true
+env_name: StardewValley
+log_path: "logs"
+env:
+  state_json_path: "data\\stardew_valley\\state"
+  action_json_path: "data\\stardew_valley\\action.json"
+  task: "earn_money"
+  input_modality: "text"
+  skill_registry:
+    env_region: [0, 0, 1920, 1080]
+    env_resolution: [1920, 1080]
+    skill_list:
+      - till_soil
+      - plant_seeds
+      - water_seeds
+      - harvest_crops
+      - sell_item
+      - buy_item
+      - get_out_of_house
+      - go_house_and_sleep

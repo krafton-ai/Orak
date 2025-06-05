@@ -1,0 +1,39 @@
+# General configuration
+# logging: true
+# Environment configuration
+env_name: "StreetFighterMulti"
+log_path: ./logs
+runner:
+  max_steps: 10000
+env:
+  character_1p: "Ken" # Recommend "Ken"
+  character_2p: "Ken" # Recommend "Ken"
+  task: "Defeat Your Opponent"
+
+# DIAMBRA specific settings for Street Fighter
+diambra_settings:
+  rom_path: "C:/Users/bjchoi92/refactor/gamingslm/executables/streetfighter3/roms"
+
+# agent configuration
+agent1:
+  llm_name: gpt-4o
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: gaming_slm.prompts.street_fighter.text.zeroshot_agent
+
+agent2:
+  llm_name: gpt-4o-mini
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: gaming_slm.prompts.street_fighter.text.zeroshot_agent
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\street_fighter_multi\\server.py"
+agent_server_1: ".\\src\\mcp_agent_servers\\street_fighter_multi\\server.py"
+agent_server_2: ".\\src\\mcp_agent_servers\\street_fighter_multi\\server.py"

@@ -1,0 +1,10 @@
+# logging: true
+env_name: "DarkestDungeon"
+log_path: ./logs
+env:
+  save_editor_path: "src/mcp_game_servers/darkest_dungeon/game/utils"
+  game_install_location: "C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon"
+  steam_user_id: 1862215842
+  profile_number: 0
+  input_modality: "text" # text, text_image is supported
+  task: first_embark_after_tutorial

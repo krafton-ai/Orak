@@ -1,0 +1,28 @@
+# logging: true
+env_name: Pwaat
+log_path: "logs"
+runner:
+  max_steps: 50
+env:
+  task: "cross_examination_1" # multiple_choice, cross_examination_
+  input_modality: "text"
+  state_root_dir: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Phoenix Wright Ace Attorney Trilogy\\logs"
+  conversation_history_len: 20
+  auto_savedfile: true
+
+# Agent configuration
+agent:
+  # llm_name: nvidia/Mistral-NeMo-Minitron-8B-Instruct
+  debug_mode: false
+  llm_name: o3-mini #o3-mini, gpt-4o, gpt-4o-mini
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.7
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.pwaat.prompts.text.reflection_agent
+  long_term_memory_len: 5
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\pwaat\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\pwaat\\server.py"

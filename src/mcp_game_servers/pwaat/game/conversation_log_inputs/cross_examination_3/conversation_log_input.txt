@@ -1,0 +1,127 @@
+{"timestamp": "2025-04-02 17:16:49", "speaker": "10", "conversation": "Mr. Sahwit, you sell newspaper
+subscriptions, is this correct?"}|{"timestamp": "2025-04-02 17:16:52", "speaker": "26", "conversation": "Oh, oh yes!
+Newspapers, yes!"}|{"timestamp": "2025-04-02 17:16:56", "speaker": "8", "conversation": "Mr. Sahwit, you may proceed
+with your testimony."}|{"timestamp": "2025-04-02 17:17:04", "speaker": "8", "conversation": "Please tell the court what
+you saw on the day of the
+murder."}|{"timestamp": "2025-04-02 17:17:09", "speaker": "0", "conversation": "<color=#ff0000>-- Witness's Account --</color>"}|{"timestamp": "2025-04-02 17:17:14", "speaker": "26", "conversation": "I was going door-to-door,
+selling subscriptions when I saw
+a man fleeing an apartment."}|{"timestamp": "2025-04-02 17:17:18", "speaker": "26", "conversation": "I thought he must be in a
+hurry because he left the
+door half-open behind him."}|{"timestamp": "2025-04-02 17:17:19", "speaker": "26", "conversation": "Thinking it strange, I looked
+inside the apartment."}|{"timestamp": "2025-04-02 17:17:26", "speaker": "26", "conversation": "Then I saw her lying there... 
+A woman... not moving... dead!"}|{"timestamp": "2025-04-02 17:17:33", "speaker": "26", "conversation": "I quailed in fright and found
+myself unable to go inside."}|{"timestamp": "2025-04-02 17:17:36", "speaker": "26", "conversation": "I thought to call the police
+immediately!"}|{"timestamp": "2025-04-02 17:17:39", "speaker": "26", "conversation": "However, the phone in her
+apartment wasn't working."}|{"timestamp": "2025-04-02 17:17:42", "speaker": "26", "conversation": "I went to a nearby park and
+found a public phone."}|{"timestamp": "2025-04-02 17:17:45", "speaker": "26", "conversation": "I remember the time exactly:
+It was 1:00 PM."}|{"timestamp": "2025-04-02 17:17:49", "speaker": "26", "conversation": "The man who ran was, without
+a doubt, the defendant sitting
+right over there."}|{"timestamp": "2025-04-02 17:17:53", "speaker": "8", "conversation": "Hmm..."}|{"timestamp": "2025-04-02 17:17:56", "speaker": "2", "conversation": "<color=#68c0f0>(Larry! Why didn't you</color>
+<color=#68c0f0>tell the truth?)</color>"}|{"timestamp": "2025-04-02 17:17:58", "speaker": "2", "conversation": "<color=#68c0f0>(I can't defend you against</color>
+<color=#68c0f0>a testimony like that!)</color>"}|{"timestamp": "2025-04-02 17:18:02", "speaker": "8", "conversation": "Incidentally, why wasn't
+the phone in the victim's
+apartment working?"}|{"timestamp": "2025-04-02 17:18:06", "speaker": "10", "conversation": "Your Honor, at the time of
+the murder, there was a 
+blackout in the building."}|{"timestamp": "2025-04-02 17:18:09", "speaker": "8", "conversation": "Aren't phones supposed to
+work during a blackout?"}|{"timestamp": "2025-04-02 17:18:11", "speaker": "10", "conversation": "Yes, Your Honor..."}|{"timestamp": "2025-04-02 17:18:13", "speaker": "10", "conversation": "However, some cordless phones
+do not function normally."}|{"timestamp": "2025-04-02 17:18:16", "speaker": "10", "conversation": "The phone that Mr. Sahwit
+used was one of those."}|{"timestamp": "2025-04-02 17:18:18", "speaker": "10", "conversation": "Your Honor..."}|{"timestamp": "2025-04-02 17:18:21", "speaker": "10", "conversation": "I have a record of the
+blackout, for your perusal."}|{"timestamp": "2025-04-02 17:18:25", "speaker": "0", "conversation": "<color=#68c0f0>Blackout Record added</color>
+<color=#68c0f0>to the Court Record.</color>"}|{"timestamp": "2025-04-02 17:18:27", "speaker": "8", "conversation": "Now, Mr. Wright..."}|{"timestamp": "2025-04-02 17:18:30", "speaker": "2", "conversation": "Yes!
+Er... yes, Your Honor?"}|{"timestamp": "2025-04-02 17:18:33", "speaker": "8", "conversation": "You may begin your
+<color=#ff0000>cross-examination</color>."}|{"timestamp": "2025-04-02 17:18:36", "speaker": "2", "conversation": "<color=#ff0000>C-Cross-examination</color>,
+Your Honor?"}|{"timestamp": "2025-04-02 17:18:39", "speaker": "7", "conversation": "Alright, Wright, this is it.
+The real deal!"}|{"timestamp": "2025-04-02 17:18:41", "speaker": "2", "conversation": "Uh... what exactly am I
+supposed to do?"}|{"timestamp": "2025-04-02 17:18:45", "speaker": "7", "conversation": "Why, you expose the <color=#ff0000>lies</color> in
+the testimony the witness
+just gave!"}|{"timestamp": "2025-04-02 17:18:52", "speaker": "2", "conversation": "Lies! What?! He was lying!?"}|{"timestamp": "2025-04-02 17:18:56", "speaker": "7", "conversation": "Your client is innocent,
+right?"}|{"timestamp": "2025-04-02 17:18:59", "speaker": "7", "conversation": "Then that witness must have
+lied in his testimony!"}|{"timestamp": "2025-04-02 17:19:02", "speaker": "7", "conversation": "Or is your client really...
+guilty?"}|{"timestamp": "2025-04-02 17:19:05", "speaker": "2", "conversation": "!!! How do I prove he's not?"}|{"timestamp": "2025-04-13 21:55:13", "speaker": "7", "conversation": "You hold the key!
+It's in the <color=#ff0000>evidence</color>!"}|{"timestamp": "2025-04-13 21:55:53", "speaker": "7", "conversation": "Compare the witness's
+testimony to the evidence
+at hand."}|{"timestamp": "2025-04-13 21:56:18", "speaker": "7", "conversation": "There's bound to be a
+<color=#ff0000>contradiction</color> in there!"}|{"timestamp": "2025-04-13 21:56:44", "speaker": "7", "conversation": "First, find contradictions
+between the <color=#ff0000>Court Record</color>
+and the witness's testimony."}|{"timestamp": "2025-04-13 21:57:06", "speaker": "7", "conversation": "Then, once you've found the
+contradicting <color=#ff0000>evidence</color>..."}|{"timestamp": "2025-04-13 21:57:35", "speaker": "7", "conversation": "<color=#ff0000>present</color> it and rub
+it in the witness's face!"}|{"timestamp": "2025-04-13 21:57:53", "speaker": "2", "conversation": "Um... okay."}|{"timestamp": "2025-04-16 00:27:15", "speaker": "7", "conversation": "Open the Court Record with
+<color=#ff0000>         </color>, then point out
+<color=#ff0000>contradictions</color> in the testimony!"}|{"timestamp": "2025-04-16 00:27:27", "speaker": "0", "conversation": "<color=#ff0000>-- Witness's Account --</color>"}|{"timestamp": "2025-04-16 00:27:30", "speaker": "26", "conversation": "<color=#00f000>I was going door-to-door,</color>
+<color=#00f000>selling subscriptions when I saw</color>
+<color=#00f000>a man fleeing an apartment.</color>"}|{"timestamp": "2025-04-16 00:27:32", "speaker": "26", "conversation": "<color=#00f000>I thought he must be in a</color>
+<color=#00f000>hurry because he left the</color>
+<color=#00f000>door half-open behind him.</color>"}|{"timestamp": "2025-04-16 00:27:33", "speaker": "26", "conversation": "<color=#00f000>Thinking it strange, I looked</color>
+<color=#00f000>inside the apartment.</color>"}|{"timestamp": "2025-04-16 00:27:36", "speaker": "26", "conversation": "<color=#00f000>Then I saw her lying there... </color>
+<color=#00f000>A woman... not moving... dead!</color>"}|{"timestamp": "2025-04-16 00:27:38", "speaker": "26", "conversation": "<color=#00f000>I quailed in fright and found</color>
+<color=#00f000>myself unable to go inside.</color>"}|{"timestamp": "2025-04-16 00:27:40", "speaker": "26", "conversation": "<color=#00f000>I thought to call the police</color>
+<color=#00f000>immediately!</color>"}|{"timestamp": "2025-04-16 00:27:42", "speaker": "26", "conversation": "<color=#00f000>However, the phone in her</color>
+<color=#00f000>apartment wasn't working.</color>"}|{"timestamp": "2025-04-16 00:27:45", "speaker": "26", "conversation": "<color=#00f000>I went to a nearby park and</color>
+<color=#00f000>found a public phone.</color>"}|{"timestamp": "2025-04-16 00:27:48", "speaker": "26", "conversation": "<color=#00f000>I remember the time exactly:</color>
+<color=#00f000>It was 1:00 PM.</color>"}|{"timestamp": "2025-04-16 00:27:56", "speaker": "balloon_2", "conversation": "Objection!"}|{"timestamp": "2025-04-16 00:28:00", "speaker": "2", "conversation": "You found the body at 1:00 PM.
+You're sure?"}|{"timestamp": "2025-04-16 00:29:05", "speaker": "26", "conversation": "Yes.
+It was 1:00 PM, for certain."}|{"timestamp": "2025-04-16 00:29:08", "speaker": "2", "conversation": "Frankly, I find that hard to
+believe!"}|{"timestamp": "2025-04-16 00:29:08", "speaker": "2", "conversation": "Your statement directly 
+contradicts the autopsy report."}|{"timestamp": "2025-04-16 00:29:08", "speaker": "2", "conversation": "The autopsy notes the time
+of death at sometime after
+<color=#ff0000>4PM</color>."}|{"timestamp": "2025-04-16 00:29:09", "speaker": "2", "conversation": "There was nobody to... er...
+no \"body\" to find at 1:00 PM!"}|{"timestamp": "2025-04-16 00:29:10", "speaker": "2", "conversation": "How do you explain this
+three-hour gap?"}|{"timestamp": "2025-04-16 00:29:11", "speaker": "26", "conversation": "!!!"}|{"timestamp": "2025-04-16 00:29:11", "speaker": "26", "conversation": "Oh, that! Oh, er..."}|{"timestamp": "2025-04-16 00:29:11", "speaker": "balloon_3", "conversation": "Objection!"}|{"timestamp": "2025-04-16 00:29:14", "speaker": "10", "conversation": "This is trivial! The witness
+merely forgot the time!"}|{"timestamp": "2025-04-16 00:29:16", "speaker": "8", "conversation": "After his testimony, I find
+that hard to believe."}|{"timestamp": "2025-04-16 00:29:16", "speaker": "8", "conversation": "Mr. Sahwit..."}|{"timestamp": "2025-04-16 00:29:17", "speaker": "8", "conversation": "Why were you so certain
+that you found the body
+at 1:00 PM?"}|{"timestamp": "2025-04-16 00:29:17", "speaker": "26", "conversation": "I... er... well, I... 
+Gee, that's a really good
+question!"}|{"timestamp": "2025-04-16 00:29:18", "speaker": "7", "conversation": "Great job, Wright!
+Way to put him on the spot!"}|{"timestamp": "2025-04-16 00:29:19", "speaker": "7", "conversation": "That's all you have to do:
+point out contradictions!"}|{"timestamp": "2025-04-16 00:29:21", "speaker": "7", "conversation": "Lies always beget more lies!"}|{"timestamp": "2025-04-16 00:29:24", "speaker": "7", "conversation": "See through one, and their
+whole story falls apart!"}|{"timestamp": "2025-04-16 00:29:28", "speaker": "26", "conversation": "Wait!
+I remember now!"}|{"timestamp": "2025-04-16 00:29:29", "speaker": "8", "conversation": "Would you care to give
+your testimony again?"}|{"timestamp": "2025-04-16 00:29:34", "speaker": "0", "conversation": "<color=#ff0000>-- The Time of Discovery --</color>"}|{"timestamp": "2025-04-16 00:29:37", "speaker": "26", "conversation": "You see, when I found the
+body, I heard the time."}|{"timestamp": "2025-04-16 00:29:38", "speaker": "26", "conversation": "There was a voice saying the
+time... It was probably
+coming from the television."}|{"timestamp": "2025-04-16 00:29:38", "speaker": "26", "conversation": "Oh, but it was three hours
+off, wasn't it?"}|{"timestamp": "2025-04-16 00:29:39", "speaker": "26", "conversation": "I guess the victim must
+have been watching a video
+of a taped program!"}|{"timestamp": "2025-04-16 00:29:39", "speaker": "26", "conversation": "That's why I thought
+it was 1:00 PM!"}|{"timestamp": "2025-04-16 00:29:39", "speaker": "26", "conversation": "Terribly sorry about
+the misunderstanding..."}|{"timestamp": "2025-04-16 00:29:43", "speaker": "8", "conversation": "Hmm... I see.
+You heard a voice saying
+the time on a taped program."}|{"timestamp": "2025-04-16 00:29:44", "speaker": "8", "conversation": "Mr. Wright, you may cross-
+examine the witness."}|{"timestamp": "2025-04-16 00:29:46", "speaker": "7", "conversation": "Wright!"}|{"timestamp": "2025-04-16 00:29:47", "speaker": "7", "conversation": "You know what to do!"}|{"timestamp": "2025-04-16 00:55:12", "speaker": "2", "conversation": "I've got this one."}|{"timestamp": "2025-04-16 00:55:57", "speaker": "0", "conversation": "<color=#ff0000>-- The Time of Discovery --</color>"}|{"timestamp": "2025-04-16 00:56:01", "speaker": "26", "conversation": "<color=#00f000>You see, when I found the</color>
+<color=#00f000>body, I heard the time.</color>"}|{"timestamp": "2025-04-16 00:56:17", "speaker": "balloon_12", "conversation": "Hold It!"}|{"timestamp": "2025-04-16 00:56:20", "speaker": "2", "conversation": "You said \"heard\"...
+Not \"saw\"?"}|{"timestamp": "2025-04-16 00:56:30", "speaker": "26", "conversation": "Yes, heard."}|{"timestamp": "2025-04-16 00:56:42", "speaker": "26", "conversation": "All I saw was the body
+lying there..."}|{"timestamp": "2025-04-16 00:56:54", "speaker": "26", "conversation": "I didn't think to look at
+anything else, least of all
+my watch."}|{"timestamp": "2025-04-16 00:57:02", "speaker": "2", "conversation": "Hmm...
+Isn't that a little strange?"}|{"timestamp": "2025-04-16 00:57:11", "speaker": "2", "conversation": "So you're saying you 
+\"heard\" something."}|{"timestamp": "2025-04-16 00:57:18", "speaker": "2", "conversation": "But if you were so shocked by
+the body, you wouldn't hear
+anything at all!"}|{"timestamp": "2025-04-16 00:57:23", "speaker": "balloon_3", "conversation": "Objection!"}|{"timestamp": "2025-04-16 00:57:25", "speaker": "10", "conversation": "The witness did say he
+actually heard the time."}|{"timestamp": "2025-04-16 00:57:33", "speaker": "10", "conversation": "It's ludicrous to suggest
+he \"wouldn't hear anything\"!"}|{"timestamp": "2025-04-16 00:57:39", "speaker": "8", "conversation": "Hmm...
+I have to agree with
+the prosecution."}|{"timestamp": "2025-04-16 00:57:47", "speaker": "8", "conversation": "Witness, continue
+your testimony."}|{"timestamp": "2025-04-16 00:57:55", "speaker": "26", "conversation": "<color=#00f000>There was a voice saying the</color>
+<color=#00f000>time... It was probably</color>
+<color=#00f000>coming from the television.</color>"}|{"timestamp": "2025-04-16 00:58:18", "speaker": "balloon_2", "conversation": "Objection!"}|{"timestamp": "2025-04-16 00:58:20", "speaker": "2", "conversation": "Hold it right there!"}|{"timestamp": "2025-04-16 00:58:32", "speaker": "2", "conversation": "The prosecution has said there
+was a blackout at the time of
+the discovery!"}|{"timestamp": "2025-04-16 00:58:39", "speaker": "2", "conversation": "And this record proves it!"}|{"timestamp": "2025-04-16 00:58:46", "speaker": "26", "conversation": "...!"}|{"timestamp": "2025-04-16 00:58:57", "speaker": "2", "conversation": "You couldn't have heard
+a television... or a video!"}|{"timestamp": "2025-04-16 00:59:02", "speaker": "26", "conversation": "Gah!!!"}|{"timestamp": "2025-04-16 00:59:10", "speaker": "26", "conversation": "I... well... urk!"}|{"timestamp": "2025-04-16 00:59:16", "speaker": "8", "conversation": "The defense has a point."}|{"timestamp": "2025-04-16 00:59:22", "speaker": "8", "conversation": "Do you have an explanation
+for this, Mr. Sahwit?"}|{"timestamp": "2025-04-16 00:59:31", "speaker": "26", "conversation": "No, I... I find it quite
+puzzling myself! Quite!"}|{"timestamp": "2025-04-16 00:59:36", "speaker": "26", "conversation": "..."}|{"timestamp": "2025-04-16 00:59:44", "speaker": "26", "conversation": "W-wait!
+I remember now!"}|{"timestamp": "2025-04-16 00:59:49", "speaker": "8", "conversation": "Mr. Sahwit?"}|{"timestamp": "2025-04-16 00:59:57", "speaker": "8", "conversation": "The court would prefer to hear
+an accurate testimony from the
+very beginning."}|{"timestamp": "2025-04-16 01:00:05", "speaker": "8", "conversation": "These constant corrections
+are harming your credibility."}|{"timestamp": "2025-04-16 01:00:13", "speaker": "8", "conversation": "That, and you seem
+rather... distraught."}|{"timestamp": "2025-04-16 01:00:18", "speaker": "26", "conversation": "...!"}|{"timestamp": "2025-04-16 01:00:24", "speaker": "26", "conversation": "M-my apologies, Your Honor!"}|{"timestamp": "2025-04-16 01:00:31", "speaker": "26", "conversation": "It... er, it must have
+been the shock of finding
+the body!"}|{"timestamp": "2025-04-16 01:00:38", "speaker": "8", "conversation": "Very well, Mr. Sahwit."}|{"timestamp": "2025-04-16 01:00:44", "speaker": "8", "conversation": "Let's hear your testimony
+once more please."}|{"timestamp": "2025-04-16 01:00:54", "speaker": "0", "conversation": "<color=#ff0000>-- Hearing the Time --</color>"}|{"timestamp": "2025-04-16 01:00:59", "speaker": "26", "conversation": "Actually, I didn't \"hear\"
+the time... I \"saw\" it!"}|{"timestamp": "2025-04-16 01:01:06", "speaker": "26", "conversation": "There was a table clock in
+the apartment, wasn't there!"}|{"timestamp": "2025-04-16 01:01:14", "speaker": "26", "conversation": "Yeah, the murder weapon!
+The killer used it to
+hit the victim!"}|{"timestamp": "2025-04-16 01:01:22", "speaker": "26", "conversation": "That must have
+been what I saw."}|{"timestamp": "2025-04-16 01:01:31", "speaker": "8", "conversation": "You saw a clock?
+I guess that would explain it."}|{"timestamp": "2025-04-16 01:01:41", "speaker": "8", "conversation": "The defense may cross-
+examine the witness."}

@@ -1,0 +1,22 @@
+# logging: true
+env_name: "PokemonRed"
+log_path: ./logs
+agent:
+  llm_name: gpt-4o-mini # Qwen/Qwen2.5-7B-Instruct
+  # structured_output:
+  #   action_inference:
+  #     # JSON SCHEMA
+  #     guided_json: ActionSchema
+  #     output_keys:
+  #       - action
+
+      # REGEX
+      # guided_regex: "### Reasoning\\s*\\n(.+?)\\n### Actions\\s*\\n(.+)"
+      # guided_decoding_backend: "outlines"
+
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.1
+  repetition_penalty: 1.0
+  agent_type: pokemon_agent
+  prompt_path: mcp_agent_servers.pokemon_red.prompts.text.pokemon_agent

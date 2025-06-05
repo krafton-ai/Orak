@@ -1,0 +1,4 @@
+google-genai
+dxcam
+burnysc2
+nest_asyncio

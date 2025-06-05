@@ -1,0 +1,8 @@
+# logging: true
+env_name: "TwentyFourtyEight"
+log_path: ./logs
+env:
+  task: "Merge Tiles to Reach the Target"
+  show_graphic: True
+  target_tile: 2048
+  input_modality: "text"

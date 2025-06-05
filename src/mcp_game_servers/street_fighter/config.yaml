@@ -1,0 +1,8 @@
+# logging: true
+env_name: StreetFighter
+log_path: ./logs
+env:
+  difficulty: 1     # Bot difficulty 1 to 8
+  character: "Ken" # Playable LLM Character. "Chun-Li", "Ken", "Q". Default: Ken
+  task: "Defeat Opponent"
+  input_modality: "text" # text, image, text_image

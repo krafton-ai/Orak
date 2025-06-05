@@ -1,0 +1,51 @@
+{
+    "base_root" : {
+        "version" : 2,
+        "totalelapsed" : 1153966946,
+        "inraid" : true,
+        "raiddungeon" : "crypts",
+        "raid_save" : "",
+        "estatename" : "GameBench",
+        "game_mode" : "base",
+        "date_time" : "2025-05-20 17:27:45",
+        "dd_options_altered" : false,
+        "profile_options" : {
+            "values" : {
+                "quest_select_warnings" : [true, true],
+                "provision_warnings" : [true, true],
+                "deck_based_stage_coach" : [true, true],
+                "curio_tracker" : [true, true],
+                "dd_mode" : [true, true],
+                "corpses" : [true, true],
+                "stall_penalty" : [true, true],
+                "deaths_door_recovery_debuffs" : [true, true],
+                "retreats_can_fail" : [true, true],
+                "multiplied_enemy_crits" : [true, true],
+                "town_events" : "normal",
+                "never_again" : "strict"
+            }
+        },
+        "persistent_ugcs" : { },
+        "presented_dlc" : {
+            "dlc" : {
+                "0" : {
+                    "name" : "arena_mp",
+                    "source" : "dlc"
+                },
+                "1" : {
+                    "name" : "crimson_court",
+                    "source" : "dlc"
+                },
+                "2" : {
+                    "name" : "shieldbreaker",
+                    "source" : "dlc"
+                },
+                "3" : {
+                    "name" : "color_of_madness",
+                    "source" : "dlc"
+                }
+            }
+        },
+        "dlc_init" : true
+    }
+}

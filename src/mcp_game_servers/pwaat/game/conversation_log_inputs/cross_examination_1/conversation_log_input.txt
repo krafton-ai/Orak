@@ -1,0 +1,48 @@
+{"timestamp": "2025-04-02 17:16:49", "speaker": "10", "conversation": "Mr. Sahwit, you sell newspaper
+subscriptions, is this correct?"}|{"timestamp": "2025-04-02 17:16:52", "speaker": "26", "conversation": "Oh, oh yes!
+Newspapers, yes!"}|{"timestamp": "2025-04-02 17:16:56", "speaker": "8", "conversation": "Mr. Sahwit, you may proceed
+with your testimony."}|{"timestamp": "2025-04-02 17:17:04", "speaker": "8", "conversation": "Please tell the court what
+you saw on the day of the
+murder."}|{"timestamp": "2025-04-02 17:17:09", "speaker": "0", "conversation": "<color=#ff0000>-- Witness's Account --</color>"}|{"timestamp": "2025-04-02 17:17:14", "speaker": "26", "conversation": "I was going door-to-door,
+selling subscriptions when I saw
+a man fleeing an apartment."}|{"timestamp": "2025-04-02 17:17:18", "speaker": "26", "conversation": "I thought he must be in a
+hurry because he left the
+door half-open behind him."}|{"timestamp": "2025-04-02 17:17:19", "speaker": "26", "conversation": "Thinking it strange, I looked
+inside the apartment."}|{"timestamp": "2025-04-02 17:17:26", "speaker": "26", "conversation": "Then I saw her lying there... 
+A woman... not moving... dead!"}|{"timestamp": "2025-04-02 17:17:33", "speaker": "26", "conversation": "I quailed in fright and found
+myself unable to go inside."}|{"timestamp": "2025-04-02 17:17:36", "speaker": "26", "conversation": "I thought to call the police
+immediately!"}|{"timestamp": "2025-04-02 17:17:39", "speaker": "26", "conversation": "However, the phone in her
+apartment wasn't working."}|{"timestamp": "2025-04-02 17:17:42", "speaker": "26", "conversation": "I went to a nearby park and
+found a public phone."}|{"timestamp": "2025-04-02 17:17:45", "speaker": "26", "conversation": "I remember the time exactly:
+It was 1:00 PM."}|{"timestamp": "2025-04-02 17:17:49", "speaker": "26", "conversation": "The man who ran was, without
+a doubt, the defendant sitting
+right over there."}|{"timestamp": "2025-04-02 17:17:53", "speaker": "8", "conversation": "Hmm..."}|{"timestamp": "2025-04-02 17:17:56", "speaker": "2", "conversation": "<color=#68c0f0>(Larry! Why didn't you</color>
+<color=#68c0f0>tell the truth?)</color>"}|{"timestamp": "2025-04-02 17:17:58", "speaker": "2", "conversation": "<color=#68c0f0>(I can't defend you against</color>
+<color=#68c0f0>a testimony like that!)</color>"}|{"timestamp": "2025-04-02 17:18:02", "speaker": "8", "conversation": "Incidentally, why wasn't
+the phone in the victim's
+apartment working?"}|{"timestamp": "2025-04-02 17:18:06", "speaker": "10", "conversation": "Your Honor, at the time of
+the murder, there was a 
+blackout in the building."}|{"timestamp": "2025-04-02 17:18:09", "speaker": "8", "conversation": "Aren't phones supposed to
+work during a blackout?"}|{"timestamp": "2025-04-02 17:18:11", "speaker": "10", "conversation": "Yes, Your Honor..."}|{"timestamp": "2025-04-02 17:18:13", "speaker": "10", "conversation": "However, some cordless phones
+do not function normally."}|{"timestamp": "2025-04-02 17:18:16", "speaker": "10", "conversation": "The phone that Mr. Sahwit
+used was one of those."}|{"timestamp": "2025-04-02 17:18:18", "speaker": "10", "conversation": "Your Honor..."}|{"timestamp": "2025-04-02 17:18:21", "speaker": "10", "conversation": "I have a record of the
+blackout, for your perusal."}|{"timestamp": "2025-04-02 17:18:25", "speaker": "0", "conversation": "<color=#68c0f0>Blackout Record added</color>
+<color=#68c0f0>to the Court Record.</color>"}|{"timestamp": "2025-04-02 17:18:27", "speaker": "8", "conversation": "Now, Mr. Wright..."}|{"timestamp": "2025-04-02 17:18:30", "speaker": "2", "conversation": "Yes!
+Er... yes, Your Honor?"}|{"timestamp": "2025-04-02 17:18:33", "speaker": "8", "conversation": "You may begin your
+<color=#ff0000>cross-examination</color>."}|{"timestamp": "2025-04-02 17:18:36", "speaker": "2", "conversation": "<color=#ff0000>C-Cross-examination</color>,
+Your Honor?"}|{"timestamp": "2025-04-02 17:18:39", "speaker": "7", "conversation": "Alright, Wright, this is it.
+The real deal!"}|{"timestamp": "2025-04-02 17:18:41", "speaker": "2", "conversation": "Uh... what exactly am I
+supposed to do?"}|{"timestamp": "2025-04-02 17:18:45", "speaker": "7", "conversation": "Why, you expose the <color=#ff0000>lies</color> in
+the testimony the witness
+just gave!"}|{"timestamp": "2025-04-02 17:18:52", "speaker": "2", "conversation": "Lies! What?! He was lying!?"}|{"timestamp": "2025-04-02 17:18:56", "speaker": "7", "conversation": "Your client is innocent,
+right?"}|{"timestamp": "2025-04-02 17:18:59", "speaker": "7", "conversation": "Then that witness must have
+lied in his testimony!"}|{"timestamp": "2025-04-02 17:19:02", "speaker": "7", "conversation": "Or is your client really...
+guilty?"}|{"timestamp": "2025-04-02 17:19:05", "speaker": "2", "conversation": "!!! How do I prove he's not?"}|{"timestamp": "2025-04-13 21:55:13", "speaker": "7", "conversation": "You hold the key!
+It's in the <color=#ff0000>evidence</color>!"}|{"timestamp": "2025-04-13 21:55:53", "speaker": "7", "conversation": "Compare the witness's
+testimony to the evidence
+at hand."}|{"timestamp": "2025-04-13 21:56:18", "speaker": "7", "conversation": "There's bound to be a
+<color=#ff0000>contradiction</color> in there!"}|{"timestamp": "2025-04-13 21:56:44", "speaker": "7", "conversation": "First, find contradictions
+between the <color=#ff0000>Court Record</color>
+and the witness's testimony."}|{"timestamp": "2025-04-13 21:57:06", "speaker": "7", "conversation": "Then, once you've found the
+contradicting <color=#ff0000>evidence</color>..."}|{"timestamp": "2025-04-13 21:57:35", "speaker": "7", "conversation": "<color=#ff0000>present</color> it and rub
+it in the witness's face!"}|{"timestamp": "2025-04-13 21:57:53", "speaker": "2", "conversation": "Um... okay."}

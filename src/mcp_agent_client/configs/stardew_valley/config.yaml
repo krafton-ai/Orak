@@ -1,0 +1,35 @@
+env_name: StardewValley
+log_path: "logs"
+runner:
+  max_steps: 150
+env:
+  state_json_path: "data\\stardew_valley\\state"
+  action_json_path: "data\\stardew_valley\\action.json"
+  task: "earn_money"
+  input_modality: "text"
+  skill_registry:
+    env_region: [0, 0, 1920, 1080]
+    env_resolution: [1920, 1080]
+    skill_list:
+      - till_soil
+      - plant_seeds
+      - water_seeds
+      - harvest_crops
+      - sell_item
+      - buy_item
+      - get_out_of_house
+      - go_house_and_sleep
+
+# agent configuration
+agent:
+  llm_name: gpt-4o
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.0
+  repetition_penalty: 1.0
+  agent_type: reflection_planning_agent
+  prompt_path: mcp_agent_servers.stardew_valley.prompts.earn_money.text.reflection_planning_agent
+  
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\stardew_valley\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\stardew_valley\\server.py"

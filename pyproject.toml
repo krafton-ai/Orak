@@ -1,0 +1,65 @@
+[project]
+name = "Orak"
+version = "0.0.0-dev"
+description = "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
+requires-python = ">=3.10"
+readme = "README.md"
+
+authors = [
+    { name = "Dongmin Park", email = "dongmin.park@krafton.com" },
+    { name = "Minkyu Kim", email = "minkyu.kim@krafton.com" },
+    { name = "Byungjoon Choi", email = "bjchoi92@krafton.com" },
+    { name = "Junhyuk Kim", email = "j4ckkim@krafton.com" },
+    { name = "Keon Lee", email = "keonlee@krafton.com" },
+    { name = "Jonghyun Lee", email = "jonghyunlee@krafton.com" },
+    { name = "Inkyu Park", email = "inkyupark@krafton.com" },
+    { name = "ByeongUk Lee", email = "byeonguk.lee@krafton.com" },
+    { name = "Jaeyoung Hwang", email = "moonde@krafton.com" },
+    { name = "Jaewoo Ahn", email = "jaewoo.ahn@krafton.com" },
+]
+dependencies = [
+    "mcp[cli]==1.6.0",
+]
+
+[project.urls]
+Repository = "https://github.com/krafton-ai/Orak.git"
+
+[tool.black]
+target-version = ["py310"]
+line-length = 80
+
+[tool.flake8]
+extend_exclude = ["third-party"]
+extend-ignore = "F811,F841,E203,E402,E712,W503,E501,E721"
+per-file-ignores = ["__init__.py:F401"]
+max-line-length = 80
+
+[tool.isort]
+extend_skip = "third-party"
+profile = "black"
+line_length = 80
+known_first_party = ["mcp_game_servers", "mcp_agent_servers", "mcp_agent_client"]
+
+[tool.setuptools]
+packages = ["mcp_game_servers", "mcp_agent_servers", "mcp_agent_client"]
+package-dir = {"" = "src"}
+
+[tool.mypy]
+disable_error_code = "type-abstract,typeddict-unknown-key"
+disallow_untyped_calls = false
+disallow_untyped_decorators = false
+files = "src,tests"
+python_version = "3.10"
+show_error_codes = true
+show_error_context = true
+strict = true
+enable_error_code = "possibly-undefined,redundant-expr,truthy-bool,truthy-iterable"
+warn_unused_configs = false
+warn_unused_ignores = false
+
+[tool.uv.workspace]
+members = ["KRAFTON AI"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

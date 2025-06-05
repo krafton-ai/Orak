@@ -1,0 +1,4 @@
+PROMPT=(
+"""{last_action}
+"""
+)

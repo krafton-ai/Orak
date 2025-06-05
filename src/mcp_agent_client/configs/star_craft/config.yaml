@@ -1,0 +1,38 @@
+# general configuration
+# logging: true
+
+# environment configuration
+env_name: StarCraft
+log_path: ./logs
+runner:
+  max_steps: 1000
+env:
+  task: 1 vs 1 battle againt built-in ai
+  input_modality: "text" # text, image, text_image
+  map_idx: 1
+  player_race: Protoss
+  bot_race: Zerg
+  bot_difficulty: 4 # 0-9, 0: VeryEasy, 9: CheatInsane
+  bot_build: 2 # 0: random, 1: rush, 2: timing, 3: power, 4: macro, 5: air
+  query_interval: 10
+  num_summaries: 1
+  num_actions: 5
+
+# agent configuration
+agent:
+  llm_name: gpt-4o-mini
+  # llm_name: deepseek-reasoner
+  # llm_name: claude-3-7-sonnet-20250219
+  # llm_name: gemini-2.5-pro-preview-03-25
+  # llm_name: meta-llama/Llama-3.2-1B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.1
+  repetition_penalty: 1.0
+  debug_mode: false
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.star_craft.prompts.text.zeroshot_agent
+
+# mcp configuration
+game_server: ".\\src\\mcp_game_servers\\star_craft\\server.py"
+agent_server: ".\\src\\mcp_agent_servers\\star_craft\\server.py"

@@ -1,0 +1,12 @@
+# logging: true
+env_name: HerStory
+log_path: "logs"
+# agent configuration
+agent:
+  llm_name: gpt-4o #Llama-3.2-1B-Instruct
+  api_key: "token-abc123"
+  api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
+  temperature: 0.3
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent  # zeroshot_agent, reflection_agent, planning_agent, reflection_planning_agent
+  prompt_path: mcp_agent_servers.her_story.prompts.text.zeroshot_agent
