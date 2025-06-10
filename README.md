@@ -1,6 +1,6 @@
 # Orak 🎮
 
-**Orak (오락)** is a _foundational_ benchmark for evaluating Large Language Model (LLM) agents in diverse popular video games. Check out our [paper](https://arxiv.org/pdf/2506.03610) for more details. Leaderboard will be coming soon.
+**Orak (오락)** is a _foundational_ benchmark for evaluating Large Language Model (LLM) agents in diverse popular video games. Please check out our [paper](https://arxiv.org/pdf/2506.03610) and the [leaderboard](https://krafton-ai.github.io/orak-leaderboard/) for more details!
 
 > *The name **Orak** comes from **오락 (orak)**, the native Korean word meaning "game".
 
@@ -17,7 +17,8 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 3. [Installation](#installation)
 4. [Evaluation](#evaluation)
 5. [Agent Module Study](#run-your-custom-script)
-7. [Bonus: Freeform Gameplay with Claude](#bonus-freeform-gameplay-with-claude-via-mcp)
+6. [Bonus: Freeform Gameplay with Claude](#bonus-freeform-gameplay-with-claude-via-mcp)
+7. [Submission Guideline](#submission-guideline)
 
 ## Features
 
@@ -211,6 +212,10 @@ Our MCP interface supports fully free-form, open-ended gameplay beyond standard 
     </td>
   </tr>
 </table>
+
+## Submission Guideline
+
+You can submit your own LLM backbones and agentic strategies to our repo. Please check out the guideline in [docs/submission_guidline.md](./docs/submission_guideline.md). We are also open to the contribution for **adding new games**. If you want to do so, please make the PR or reach out to [dongmin.park@krafton.com](dongmin.park@krafton.com). We will credit your contribution in README.md.
 
 
 ## Citation
