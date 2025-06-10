@@ -8,7 +8,7 @@ model="gpt-4o-mini"
 agent="reflection_planning_agent"
 input_modality="text"  # (text, image, text_image)
 
-python scripts/play_game.py \
+uv run ./scripts/mcp_play_game.py \
     --config="./src/mcp_agent_client/configs/$game/config.yaml" \
     env.input_modality="$input_modality" \
     agent.llm_name="$model" \

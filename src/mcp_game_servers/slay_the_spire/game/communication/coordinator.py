@@ -1,9 +1,10 @@
-import sys
 import queue
 import threading
 import json
 import collections
 import logging
+import os
+import time
 
 from mcp_game_servers.slay_the_spire.game.spire.game import Game
 from mcp_game_servers.slay_the_spire.game.spire.screen import ScreenType
@@ -11,44 +12,113 @@ from mcp_game_servers.slay_the_spire.game.communication.action import Action, St
 
 logger = logging.getLogger(__name__)
 
-def read_stdin(input_queue):
-    """Read lines from stdin and write them to a queue
+def read_from_input_file(input_queue, filepath):
+    """Atomically reads a file by renaming it, processing it, and then deleting it.
 
-    :param input_queue: A queue, to which lines from stdin will be written
+    :param input_queue: A queue, to which lines from the file will be written
     :type input_queue: queue.Queue
+    :param filepath: Path to the input file
+    :type filepath: str
     :return: None
     """
+    processing_filepath = filepath + ".processing"
     while True:
-        stdin_input = ""
-        while True:
-            input_char = sys.stdin.read(1)
-            if input_char == '\n':
-                break
+        try:
+            # Check for the file without locking it
+            if os.path.exists(filepath):
+                # Atomically rename the file to take "ownership" of it.
+                # This prevents the read-and-truncate race condition.
+                os.rename(filepath, processing_filepath)
+
+                # Now we safely own the .processing file.
+                with open(processing_filepath, 'r') as f:
+                    content = f.read().strip()
+                
+                # We are done with the file, so we can remove it.
+                os.remove(processing_filepath)
+
+                if content:
+                    input_queue.put(content)
+                
+                # Give a small break to avoid busy-waiting
+                time.sleep(0.05)
             else:
-                stdin_input += input_char
-        input_queue.put(stdin_input)
+                # File doesn't exist, wait a bit before checking again.
+                time.sleep(0.1)
+        except FileNotFoundError:
+            # This can happen in a race condition if another process/thread
+            # renames the file between our os.path.exists and os.rename.
+            # This is safe to ignore; we'll just loop and try again.
+            continue
+        except PermissionError:
+            # This is expected on Windows if the game process is writing to the
+            # file when we try to rename it. We wait a moment and retry.
+            time.sleep(0.05)
+            continue
+        except Exception as e:
+            logger.error(f"Error processing input file {filepath}: {e}")
+            # If an error occurred, the .processing file might be left over.
+            # Try to clean it up.
+            if os.path.exists(processing_filepath):
+                try:
+                    os.remove(processing_filepath)
+                except Exception as cleanup_e:
+                    logger.error(f"Failed to cleanup processing file {processing_filepath}: {cleanup_e}")
+            time.sleep(1)
 
-
-def write_stdout(output_queue):
-    """Read lines from a queue and write them to stdout
+def write_to_output_file(output_queue, filepath):
+    """Read lines from a queue and write them to filepath, overwriting the file.
 
     :param output_queue: A queue, from which this function will receive lines of text
     :type output_queue: queue.Queue
+    :param filepath: Path to the output file
+    :type filepath: str
     :return: None
     """
     while True:
-        output = output_queue.get()
-        print(output, end='\n', flush=True)
+        try:
+            output = output_queue.get() # Blocks until an item is available
+            with open(filepath, 'w') as f:
+                f.write(output + '\n') # Write with a newline
+        except Exception as e:
+            logger.error(f"Error writing to {filepath}: {e}")
+            time.sleep(1)
 
 
 class Coordinator:
     """An object to coordinate communication with Slay the Spire"""
 
-    def __init__(self):
+    def __init__(self, mod_input_path, mod_output_path):
         self.input_queue = queue.Queue()
         self.output_queue = queue.Queue()
-        self.input_thread = threading.Thread(target=read_stdin, args=(self.input_queue,))
-        self.output_thread = threading.Thread(target=write_stdout, args=(self.output_queue,))
+        
+        # Ensure communication directories exist
+        try:
+            if not os.path.exists(os.path.dirname(mod_input_path)):
+                os.makedirs(os.path.dirname(mod_input_path))
+            if not os.path.exists(os.path.dirname(mod_output_path)):
+                os.makedirs(os.path.dirname(mod_output_path))
+        except IOError as e:
+            logger.error(f"Failed to create directories for communication files: {e}")
+
+        # Initialize/clean communication files
+        processing_input_path = mod_output_path + ".processing"
+        try:
+            # Clear main input file by ensuring it's empty
+            with open(mod_output_path, 'w'):
+                pass
+            # Clear output file
+            with open(mod_input_path, 'w'):
+                pass
+            # Remove any stale processing file from a previous crash
+            if os.path.exists(processing_input_path):
+                os.remove(processing_input_path)
+        except IOError as e:
+            logger.error(f"Failed to initialize communication files: {e}")
+            # Depending on requirements, might want to raise this error
+
+        self.input_thread = threading.Thread(target=read_from_input_file, args=(self.input_queue, mod_output_path))
+        self.output_thread = threading.Thread(target=write_to_output_file, args=(self.output_queue, mod_input_path))
         self.input_thread.daemon = True
         self.input_thread.start()
         self.output_thread.daemon = True

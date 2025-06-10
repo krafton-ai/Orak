@@ -7,3 +7,5 @@ env:
   ascension_level: 0
   seed: 0
   input_modality: "text"
+  mod_input_path: "YOUR_ABSOLUTE_PATH\\data\\slay_the_spire\\mod_input.txt"
+  mod_output_path: "YOUR_ABSOLUTE_PATH\\data\\slay_the_spire\\mod_output.txt"

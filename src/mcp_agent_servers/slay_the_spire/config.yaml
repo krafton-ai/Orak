@@ -8,4 +8,4 @@ agent:
   temperature: 0.0
   repetition_penalty: 1.0
   agent_type: reflection_planning_agent
-  prompt_path: gaming_slm.prompts.slay_the_spire.text.reflection_planning_agent
+  prompt_path: mcp_agent_servers.slay_the_spire.prompts.text.reflection_planning_agent

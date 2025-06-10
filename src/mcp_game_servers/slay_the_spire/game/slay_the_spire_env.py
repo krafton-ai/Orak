@@ -207,6 +207,8 @@ class SlayTheSpireEnv(BaseEnv):
         task: str
         log_path: str
         input_modality: str
+        mod_input_path: str
+        mod_output_path: str
 
         player_class: str
         ascension_level: int = 0  # hard mode
@@ -219,8 +221,9 @@ class SlayTheSpireEnv(BaseEnv):
         self.ascension_level = self.cfg.ascension_level
         self.seed = self.cfg.seed
         self.input_modality = self.cfg.input_modality
-        
-        self.coordinator = Coordinator()
+        self.mod_input_path = self.cfg.mod_input_path
+        self.mod_output_path = self.cfg.mod_output_path
+        self.coordinator = Coordinator(self.mod_input_path, self.mod_output_path)
         self.rule_agent = SimpleAgent(chosen_class=self.player_class)
 
         self.start_game(self.coordinator, self.rule_agent)
@@ -230,13 +233,10 @@ class SlayTheSpireEnv(BaseEnv):
             self.window_capture = WindowCapture(r"Modded Slay the Spire", mode="bitblt", adjust_dpi=True)
 
     def start_game(self, coordinator, agent):
-        coordinator.signal_ready()
         coordinator.register_state_change_callback(agent.get_next_action_in_game)
 
         coordinator.clear_actions()
         logger.info("start_game")
-        while not coordinator.game_is_ready:
-            coordinator.receive_game_state_update(block=True, perform_callbacks=False)
         if not coordinator.in_game:
             logger.info("StartGameAction starts")
             StartGameAction(self.player_class, self.ascension_level, self.seed).execute(coordinator)

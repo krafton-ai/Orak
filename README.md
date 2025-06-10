@@ -16,9 +16,8 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 2. [Project Structure](#project-structure)
 3. [Installation](#installation)
 4. [Evaluation](#evaluation)
-5. [Agent Module Study](#module-study-with-simple-configuration)
-6. [Module Study](#module-study-with-simple-configuration)
-7. [Bonus: Freeform Gameplay with Claude](#bonus-freeform-gameplay-via-mcp-with-claude)
+5. [Agent Module Study](#run-your-custom-script)
+7. [Bonus: Freeform Gameplay with Claude](#bonus-freeform-gameplay-with-claude-via-mcp)
 
 ## Features
 

@@ -19,32 +19,28 @@
 <img src="./assets/slay_the_spire_all_unlocked.png" width="400"/>
 
 - Edit `config.properties` (this file is generated after starting game at least once with ModifiedCommunicationMod enabled).
-    - Windows:
-        - File path: `C:\Users\minkyu.kim\AppData\Local\ModTheSpire\CommunicationMod\config.properties`
-        - Contents: 
-            ```
-            #Thu May 15 16:39:37 KST 2025
-            
-            command=cmd /c "C\:\\PATH\\TO\\gamingslm\\scripts\\leaderboard\\python\\slay_the_spire.bat"
-            runAtGameStart=true
-            ```
-    - Mac:
-        - File path: `~/Library/Preferences/ModTheSpire/CommunicationMod/config.properties`
-        - Contents:
-            ```
-            #Wed May 14 13:21:44 KST 2025
-            command=bash ~/PATH/TO/gamingslm/scripts/leaderboard/python/slay_the_spire.sh
-            runAtGameStart=true
-            ```
+    - Our evaluation and game processes communicate through file read/write operations. The configuration below specifies the path used for this communication.
+    ```
+    #Thu May 15 16:39:37 KST 2025
+    
+    output_file_path=C:\\PATH\\TO\\gamingslm\\data\\slay_the_spire\\mod_output.txt
+    input_file_path=C:\\PATH\\TO\\gamingslm\\data\\slay_the_spire\\mod_input.txt
+    runAtGameStart=true
+    ```
+
+    - Windows: `%LOCALAPPDATA%\ModTheSpire\CommunicationMod\config.properties`         
+    - Mac: `~/Library/Preferences/ModTheSpire/CommunicationMod/config.properties`
 
 - Modify `scripts/leaderboard/python/play_slay_the_spire.{bat, sh}` corresponding to your path.
 
 ## 3. Evaluation
 
-- Evaluation pipeline of Slay the Spire is slightly different from the other games. ModifiedCommunication Mod allow the game process to spawn another process, which can communicate with the game by stdio.
-- Therefore, running game with ModifiedCommunicationMod enabled will automatically spawn `scripts/play_game.py` and the evaluation will be progressed.
+1. Run the game with ModifiedCommunicationMod enabled.
 
 <img src="./assets/slay_the_spire_communication_mod.png" width="400"/>
+<img src="./assets/slay_the_spire_ready.png" width="400"/>
+
+2. After game is ready, run the script `scripts/{mcp, python}/slay_the_spire.{ps1, sh}`.
 
 ---
 ## Note
