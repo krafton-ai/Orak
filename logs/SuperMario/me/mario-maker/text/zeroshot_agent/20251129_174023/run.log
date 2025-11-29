@@ -1,0 +1,6 @@
+2025-11-29 17:40:25,031 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-29 17:40:25,456 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-29 17:40:25,547 - INFO - model: me/mario-maker
+2025-11-29 17:40:25,547 - INFO - model_type: local
+2025-11-29 17:40:27,284 - INFO - Input_modality: text
+2025-11-29 17:40:27,284 - INFO - Agent_type: zeroshot_agent

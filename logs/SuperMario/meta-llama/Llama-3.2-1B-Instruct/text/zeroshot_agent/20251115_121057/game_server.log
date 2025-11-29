@@ -1,0 +1,21 @@
+[2025-11-15 12:10:58,138] [INFO] [base_server.py:48] config_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_121057/config_game.yaml
+[2025-11-15 12:10:59,462] [INFO] [server.py:534] Processing request of type ListToolsRequest
+[2025-11-15 12:11:01,627] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:11:02,560] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: (193,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 0', 'mario_loc_history': '[]'}
+[2025-11-15 12:11:02,560] [INFO] [server.py:524] Warning: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+[2025-11-15 12:11:02,560] [INFO] [server.py:524] Warning: UserWarning: [33mWARN: No render modes was declared in the environment (env.metadata['render_modes'] is None or not defined), you may have trouble when calling `.render()`.[0m
+[2025-11-15 12:11:02,560] [INFO] [server.py:524] Warning: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:256.)

@@ -1,0 +1,9 @@
+{
+    "game": "SuperMario",
+    "llm": "meta-llama/Llama-3.1-8B-Instruct",
+    "agent_type": "zeroshot_agent",
+    "task": "Complete stage 1-1",
+    "score": 706,
+    "final_step": 8,
+    "input_modality": "text"
+}

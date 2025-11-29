@@ -36,7 +36,14 @@ class SkipFrame(gym.Wrapper):
         done = False
         for i in range(self._skip):
             # Accumulate reward and repeat the same action
-            obs, reward, done, trunc, info  = self.env.step(action)
+            #obs, reward, done, trunc, info  = self.env.step(action)
+            # [수정 후] 4개가 오든 5개가 오든 알아서 처리하는 코드
+            step_result = self.env.step(action)
+            if len(step_result) == 4:
+                obs, reward, done, info = step_result
+                trunc = False
+            else:
+                obs, reward, done, trunc, info = step_result
             total_reward += reward
             if done:
                 break

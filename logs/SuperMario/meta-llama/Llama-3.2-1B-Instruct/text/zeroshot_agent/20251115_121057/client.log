@@ -1,0 +1,70 @@
+[2025-11-15 12:10:57,148] [INFO] [mcp_play_game.py:102] {'env_name': 'SuperMario', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_121057', 'runner': {'max_steps': 100}, 'env': {'task': 'Complete stage 1-1', 'input_modality': 'text', 'logging': False, 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_121057'}, 'agent': {'llm_name': 'meta-llama/Llama-3.2-1B-Instruct', 'api_key': 'token-abc123', 'api_base_url': 'http://127.0.0.1:11434/v1', 'temperature': 1.0, 'repetition_penalty': 1.0, 'agent_type': 'zeroshot_agent', 'prompt_path': 'mcp_agent_servers.super_mario.prompts.text.zeroshot_agent', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_121057'}, 'game_server': './src/mcp_game_servers/super_mario/server.py', 'agent_server': './src/mcp_agent_servers/super_mario/server.py'}
+[2025-11-15 12:10:57,149] [INFO] [llm.py:78] model: meta-llama/Llama-3.2-1B-Instruct
+[2025-11-15 12:10:57,149] [INFO] [llm.py:79] model_type: local
+[2025-11-15 12:11:01,626] [INFO] [eval.py:102] ================step: 1================
+[2025-11-15 12:11:07,804] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 12:11:07,850] [ERROR] [base_events.py:1758] an error occurred during closing of asynchronous generator <async_generator object stdio_client at 0x14b8f4fc0>
+asyncgen: <async_generator object stdio_client at 0x14b8f4fc0>
+  + Exception Group Traceback (most recent call last):
+  |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+    async with (
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+[2025-11-15 12:11:07,853] [ERROR] [base_events.py:1758] an error occurred during closing of asynchronous generator <async_generator object stdio_client at 0x14b663d40>
+asyncgen: <async_generator object stdio_client at 0x14b663d40>
+  + Exception Group Traceback (most recent call last):
+  |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+    async with (
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+[2025-11-15 12:11:07,854] [CRITICAL] [mcp_play_game.py:71] Uncaught exception
+Traceback (most recent call last):
+  File "/Users/gangjuho/Desktop/Orak-release/scripts/mcp_play_game.py", line 145, in <module>
+    asyncio.run(main())
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/gangjuho/Desktop/Orak-release/scripts/mcp_play_game.py", line 113, in main
+    score, step = await runner.mcp_play(
+  File "/Users/gangjuho/Desktop/Orak-release/src/mcp_agent_client/runner/eval.py", line 135, in mcp_play
+    response = self.agent.chat_completion(system_prompt, user_prompt, images, **structured_output_kwargs)
+  File "/Users/gangjuho/Desktop/Orak-release/src/mcp_agent_client/base_agent.py", line 163, in chat_completion
+    output = self.llm(messages, **kwargs)
+  File "/Users/gangjuho/Desktop/Orak-release/src/mcp_agent_client/llms/llm.py", line 604, in __call__
+    stop_reason=choice.stop_reason,
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'CompletionChoice' object has no attribute 'stop_reason'

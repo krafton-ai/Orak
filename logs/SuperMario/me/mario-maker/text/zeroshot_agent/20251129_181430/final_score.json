@@ -1,0 +1,9 @@
+{
+    "game": "SuperMario",
+    "llm": "me/mario-maker",
+    "agent_type": "zeroshot_agent",
+    "task": "Complete stage 1-1",
+    "score": 1427,
+    "final_step": 29,
+    "input_modality": "text"
+}

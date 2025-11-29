@@ -1,0 +1,37 @@
+[2025-11-15 20:41:41,259] [INFO] [base_server.py:269] config_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137/config_agent.yaml
+[2025-11-15 20:41:41,453] [INFO] [posthog.py:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-11-15 20:41:41,568] [INFO] [posthog.py:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-11-15 20:41:41,585] [INFO] [server.py:534] Processing request of type ListToolsRequest
+[2025-11-15 20:41:42,643] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:42,649] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:50,658] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:50,757] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:50,760] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:51,350] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:51,528] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:51,530] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:53,600] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:53,785] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:53,786] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:55,174] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:55,331] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:55,332] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:57,155] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:57,315] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:41:57,316] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:00,320] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:00,485] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:00,487] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:02,988] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:03,184] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:03,186] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:05,717] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:05,811] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:05,812] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:08,013] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:08,110] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:08,111] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:12,171] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:12,347] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:12,349] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 20:42:14,348] [INFO] [server.py:534] Processing request of type CallToolRequest

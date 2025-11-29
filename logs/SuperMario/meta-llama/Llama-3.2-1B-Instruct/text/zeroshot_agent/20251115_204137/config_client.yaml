@@ -1,0 +1,20 @@
+env_name: SuperMario
+log_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137
+runner:
+  max_steps: 100
+env:
+  task: Complete stage 1-1
+  input_modality: text
+  logging: false
+  log_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137
+agent:
+  llm_name: meta-llama/Llama-3.2-1B-Instruct
+  api_key: token-abc123
+  api_base_url: http://127.0.0.1:11434/v1
+  temperature: 1.0
+  repetition_penalty: 1.0
+  agent_type: zeroshot_agent
+  prompt_path: mcp_agent_servers.super_mario.prompts.text.zeroshot_agent
+  log_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137
+game_server: ./src/mcp_game_servers/super_mario/server.py
+agent_server: ./src/mcp_agent_servers/super_mario/server.py

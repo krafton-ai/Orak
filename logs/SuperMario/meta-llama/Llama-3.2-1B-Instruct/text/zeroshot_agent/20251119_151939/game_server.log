@@ -1,0 +1,43 @@
+[2025-11-19 15:19:40,937] [INFO] [base_server.py:48] config_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251119_151939/config_game.yaml
+[2025-11-19 15:19:42,219] [INFO] [server.py:534] Processing request of type ListToolsRequest
+[2025-11-19 15:19:44,360] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-19 15:19:45,123] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: (200,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 0', 'mario_loc_history': '[]'}
+[2025-11-19 15:19:45,123] [INFO] [server.py:524] Warning: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+[2025-11-19 15:19:45,123] [INFO] [server.py:524] Warning: UserWarning: [33mWARN: No render modes was declared in the environment (env.metadata['render_modes'] is None or not defined), you may have trouble when calling `.render()`.[0m
+[2025-11-19 15:19:45,123] [INFO] [server.py:524] Warning: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:256.)
+[2025-11-19 15:19:52,306] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-19 15:19:52,307] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 2})
+[2025-11-19 15:19:52,464] [INFO] [base_server.py:121] dispatch_final_action result: 240, False
+[2025-11-19 15:19:52,466] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-19 15:19:52,515] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: (194,96), (226,96)
+- Question Blocks: (226,160), (130,96), (210,96), (242,96)
+- Inactivated Blocks: None
+- Monster Goomba: (199,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 2', 'mario_loc_history': '[(240, 45)]'}
+[2025-11-19 15:19:54,337] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-19 15:19:54,337] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 2})
+[2025-11-19 15:19:54,499] [INFO] [base_server.py:121] dispatch_final_action result: 296, True

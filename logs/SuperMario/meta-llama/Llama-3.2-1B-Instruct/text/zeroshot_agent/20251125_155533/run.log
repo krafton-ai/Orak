@@ -1,0 +1,5 @@
+2025-11-25 15:55:34,836 - INFO - generated new fontManager
+2025-11-25 15:55:35,759 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 15:55:36,192 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 15:55:36,281 - INFO - model: meta-llama/Llama-3.2-1B-Instruct
+2025-11-25 15:55:36,281 - INFO - model_type: local

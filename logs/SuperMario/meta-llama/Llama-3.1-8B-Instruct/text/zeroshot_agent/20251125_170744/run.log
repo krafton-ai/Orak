@@ -1,0 +1,46 @@
+2025-11-25 17:07:45,967 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 17:07:46,453 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 17:07:46,546 - INFO - model: meta-llama/Llama-3.1-8B-Instruct
+2025-11-25 17:07:46,546 - INFO - model_type: local
+2025-11-25 17:07:48,248 - INFO - Input_modality: text
+2025-11-25 17:07:48,248 - INFO - Agent_type: zeroshot_agent
+2025-11-25 17:07:48,862 - INFO - ================step: 1================
+2025-11-25 17:07:50,456 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:07:50,463 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 0})
+2025-11-25 17:07:50,568 - INFO - ================step: 2================
+2025-11-25 17:07:52,447 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:07:52,450 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 0})
+2025-11-25 17:07:52,466 - INFO - ================step: 3================
+2025-11-25 17:07:54,208 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:07:54,209 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 1})
+2025-11-25 17:07:54,310 - INFO - ================step: 4================
+2025-11-25 17:07:56,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:07:56,922 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 3})
+2025-11-25 17:07:57,049 - INFO - ================step: 5================
+2025-11-25 17:07:58,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:07:58,892 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 1})
+2025-11-25 17:07:58,985 - INFO - ================step: 6================
+2025-11-25 17:08:01,158 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:01,159 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 2})
+2025-11-25 17:08:01,276 - INFO - ================step: 7================
+2025-11-25 17:08:04,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:04,320 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 0})
+2025-11-25 17:08:04,339 - INFO - ================step: 8================
+2025-11-25 17:08:09,250 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:09,252 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 1})
+2025-11-25 17:08:09,319 - INFO - ================step: 9================
+2025-11-25 17:08:10,749 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:10,750 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 6})
+2025-11-25 17:08:10,918 - INFO - ================step: 10================
+2025-11-25 17:08:13,533 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:13,534 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 5})
+2025-11-25 17:08:13,648 - INFO - ================step: 11================
+2025-11-25 17:08:16,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-25 17:08:16,850 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 3})
+2025-11-25 17:08:16,986 - INFO - Game: SuperMario
+2025-11-25 17:08:16,986 - INFO - LLM: meta-llama/Llama-3.1-8B-Instruct
+2025-11-25 17:08:16,986 - INFO - Agent: zeroshot_agent
+2025-11-25 17:08:16,986 - INFO - Task: Complete stage 1-1
+2025-11-25 17:08:16,987 - INFO - Score: 704
+2025-11-25 17:08:16,987 - INFO - Step: 11
+2025-11-25 17:08:16,987 - INFO - Input Modality: text

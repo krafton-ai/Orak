@@ -1,0 +1,20 @@
+# --- [Game Environment: Super Mario] ---
+# 우리가 겪은 오버플로우 문제를 막아주는 핵심 버전들입니다 
+numpy==1.26.4
+gym==0.26.2
+gym-super-mario-bros==7.4.0
+nes-py==8.2.1
+torch
+scikit-image
+
+# --- [Agent & Base Utilities] ---
+# 에이전트 실행에 필요한 기본 라이브러리들입니다 [cite: 1]
+google-auth
+google-auth-oauthlib
+omegaconf
+tiktoken
+pillow>=10.3.0
+opencv-python
+colorama
+tenacity
+termcolor

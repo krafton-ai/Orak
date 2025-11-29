@@ -1,0 +1,7 @@
+env_name: SuperMario
+log_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_182644
+env:
+  task: Complete stage 1-1
+  input_modality: text
+  logging: false
+  log_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_182644
