@@ -210,7 +210,10 @@ class SuperMarioEnv(BaseEnv):
         self.log_path = self.cfg.log_path
 
         # game setup
-        self.env = gym_super_mario_bros.make('SuperMarioBros-1-1-v1', render_mode='human', apply_api_compatibility=True)
+        # self.env = gym_super_mario_bros.make('SuperMarioBros-1-1-v1', render_mode='human', apply_api_compatibility=True)
+        # [수정 후] 이렇게 바꾸세요.
+        self.env = gym_super_mario_bros.make('SuperMarioBros-1-1-v1')
+
 
         self.env = JoypadSpace(
             self.env,
@@ -266,7 +269,13 @@ class SuperMarioEnv(BaseEnv):
         # skip meaningless init frames (for Mario level 1-1)
         n_skip = random.randint(20, 30)
         for i in range(n_skip):
-            state, reward, done, trunc, info = self.env.step(action=0)
+            # [수정 후] 4개가 오든 5개가 오든 알아서 처리하는 코드
+            step_result = self.env.step(action=0)
+            if len(step_result) == 4:
+                state, reward, done, info = step_result
+                trunc = False
+            else:
+                state, reward, done, trunc, info = step_result
         self.env.render()
 
         obs = SuperMarioObs(
@@ -341,17 +350,35 @@ class SuperMarioEnv(BaseEnv):
 
         # LLM Agent
         if actions.values['n_jumps'] == 0:
-            state, reward, done, trunc, info = self.env.step(action=0)
+            # [수정 후] 354번째 줄 교체 코드
+            step_result = self.env.step(action=0)
+            if len(step_result) == 4:
+                state, reward, done, info = step_result
+                trunc = False
+            else:
+                state, reward, done, trunc, info = step_result
         else:
             for i in range(actions.values['n_jumps']):
-                state, reward, done, trunc, info = self.env.step(action=1)
+                # [수정 후] 4개여도, 5개여도 OK
+                step_result = self.env.step(action=1)
+                if len(step_result) == 4:
+                    state, reward, done, info = step_result
+                    trunc = False
+                else:
+                    state, reward, done, trunc, info = step_result
                 if done:
                     break
             
             on_air = True
             mario_y_history = []
             while on_air and not done:
-                state, reward, done, trunc, info = self.env.step(action=0)
+                step_result = self.env.step(action=0)
+                if len(step_result) == 4:
+                    state, reward, done, info = step_result
+                    trunc = False
+                else:
+                    state, reward, done, trunc, info = step_result
+                
                 if done:
                     break
                 

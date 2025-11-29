@@ -1,0 +1,366 @@
+[2025-11-15 12:57:41,262] [INFO] [base_server.py:48] config_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_125740/config_game.yaml
+[2025-11-15 12:57:42,519] [INFO] [server.py:534] Processing request of type ListToolsRequest
+[2025-11-15 12:57:44,655] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:45,802] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: (214,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 0', 'mario_loc_history': '[]'}
+[2025-11-15 12:57:45,802] [INFO] [server.py:524] Warning: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+[2025-11-15 12:57:45,802] [INFO] [server.py:524] Warning: UserWarning: [33mWARN: No render modes was declared in the environment (env.metadata['render_modes'] is None or not defined), you may have trouble when calling `.render()`.[0m
+[2025-11-15 12:57:45,802] [INFO] [server.py:524] Warning: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:256.)
+[2025-11-15 12:57:52,808] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:52,809] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 0})
+[2025-11-15 12:57:52,866] [INFO] [base_server.py:121] dispatch_final_action result: 163, False
+[2025-11-15 12:57:52,868] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:52,918] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: (207,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 0', 'mario_loc_history': '[(163, 45)]'}
+[2025-11-15 12:57:55,547] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:55,547] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 0})
+[2025-11-15 12:57:55,591] [INFO] [base_server.py:121] dispatch_final_action result: 170, False
+[2025-11-15 12:57:55,592] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:55,641] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: (200,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 0', 'mario_loc_history': '[(163, 45), (170, 45)]'}
+[2025-11-15 12:57:57,514] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:57,514] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:57:57,661] [INFO] [base_server.py:121] dispatch_final_action result: 254, False
+[2025-11-15 12:57:57,663] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:57,705] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: (180,96), (212,96)
+- Question Blocks: (212,160), (116,96), (196,96), (228,96)
+- Inactivated Blocks: None
+- Monster Goomba: (180,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: None
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(163, 45), (170, 45), (254, 45)]'}
+[2025-11-15 12:57:59,787] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:59,788] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:57:59,932] [INFO] [base_server.py:121] dispatch_final_action result: 338, False
+[2025-11-15 12:57:59,934] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:57:59,976] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: (96,96), (128,96), (160,96)
+- Question Blocks: (128,160), (32,96), (112,96), (144,96)
+- Inactivated Blocks: None
+- Monster Goomba: (66,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (225,63,31)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(170, 45), (254, 45), (338, 45)]'}
+[2025-11-15 12:58:01,965] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:01,966] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:02,076] [INFO] [base_server.py:121] dispatch_final_action result: 394, False
+[2025-11-15 12:58:02,077] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:02,122] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: (40,96), (72,96), (104,96)
+- Question Blocks: (72,160), (56,96), (88,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (169,63,31)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(254, 45), (338, 45), (394, 45)]'}
+[2025-11-15 12:58:04,038] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:04,039] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 1})
+[2025-11-15 12:58:04,145] [INFO] [base_server.py:121] dispatch_final_action result: 434, False
+[2025-11-15 12:58:04,146] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:04,190] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: (28,96), (60,96)
+- Question Blocks: (28,160), (12,96), (44,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (125,63,31)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 1', 'mario_loc_history': '[(338, 45), (394, 45), (434, 45)]'}
+[2025-11-15 12:58:06,436] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:06,436] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 1})
+[2025-11-15 12:58:06,532] [INFO] [base_server.py:121] dispatch_final_action result: 444, False
+[2025-11-15 12:58:06,533] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:06,576] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 77)
+Positions of all objects
+- Bricks: (25,96), (57,96)
+- Question Blocks: (25,160), (9,96), (41,96)
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (122,63,31)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 1', 'mario_loc_history': '[(394, 45), (434, 45), (444, 77)]'}
+[2025-11-15 12:58:10,458] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:10,459] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 5})
+[2025-11-15 12:58:10,617] [INFO] [base_server.py:121] dispatch_final_action result: 540, False
+[2025-11-15 12:58:10,619] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:10,669] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (187,79,47), (27,63,31)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 5', 'mario_loc_history': '[(434, 45), (444, 77), (540, 45)]'}
+[2025-11-15 12:58:11,519] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:11,519] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:11,678] [INFO] [base_server.py:121] dispatch_final_action result: 594, False
+[2025-11-15 12:58:11,680] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:11,727] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (222,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (129,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(444, 77), (540, 45), (594, 45)]'}
+[2025-11-15 12:58:14,337] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:14,338] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:14,462] [INFO] [base_server.py:121] dispatch_final_action result: 617, False
+[2025-11-15 12:58:14,463] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:14,507] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 93)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (219,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (113,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(540, 45), (594, 45), (617, 93)]'}
+[2025-11-15 12:58:15,356] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:15,357] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 3})
+[2025-11-15 12:58:15,552] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:15,553] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:15,598] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (194,47), (218,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 3', 'mario_loc_history': '[(594, 45), (617, 93), (722, 45)]'}
+[2025-11-15 12:58:20,133] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:20,133] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 3})
+[2025-11-15 12:58:20,272] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:20,274] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:20,318] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (169,47), (193,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 3', 'mario_loc_history': '[(617, 93), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:23,359] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:23,359] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 2})
+[2025-11-15 12:58:23,463] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:23,465] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:23,509] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (163,47), (188,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 2', 'mario_loc_history': '[(722, 45), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:25,485] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:25,485] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 1})
+[2025-11-15 12:58:25,593] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:25,595] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:25,639] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (183,47), (208,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 1', 'mario_loc_history': '[(722, 45), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:28,584] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:28,585] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 3})
+[2025-11-15 12:58:28,716] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:28,717] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:28,761] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (208,47), (233,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 3', 'mario_loc_history': '[(722, 45), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:31,215] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:31,216] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:31,359] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:31,360] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:31,404] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: (236,47)
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(722, 45), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:33,379] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:33,379] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:33,521] [INFO] [base_server.py:121] dispatch_final_action result: 722, False
+[2025-11-15 12:58:33,523] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:33,570] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 45)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (133,95,63), (5,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 4', 'mario_loc_history': '[(722, 45), (722, 45), (722, 45)]'}
+[2025-11-15 12:58:35,506] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:35,507] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 5})
+[2025-11-15 12:58:35,618] [INFO] [base_server.py:121] dispatch_final_action result: 732, False
+[2025-11-15 12:58:35,619] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:35,663] [INFO] [base_server.py:100] load_obs result: Position of Mario: (122, 109)
+Positions of all objects
+- Bricks: None
+- Question Blocks: None
+- Inactivated Blocks: None
+- Monster Goomba: None
+- Monster Koopas: None
+- Pit: start at None, end at None
+- Warp Pipe: (130,95,63), (2,79,47)
+- Item Mushrooms: None
+- Stair Blocks: None
+- Flag: None
+(Note: All (x, y) positions refer to the top-left corner of each object.)
+, 
+{'past_mario_action': 'Jump Level 5', 'mario_loc_history': '[(722, 45), (722, 45), (732, 109)]'}
+[2025-11-15 12:58:37,981] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:58:37,981] [INFO] [base_server.py:90] executing actions: SuperMarioAction(values={'n_jumps': 4})
+[2025-11-15 12:58:38,162] [INFO] [base_server.py:121] dispatch_final_action result: 835, True

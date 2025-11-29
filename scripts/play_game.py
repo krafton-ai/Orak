@@ -10,7 +10,10 @@ from mcp_agent_client.runner.eval import BaseRunner
 from mcp_game_servers.utils.module_creator import EnvCreator
 from mcp_agent_client.base_agent import BaselineAgent
 
-
+import numpy as np
+# [추가 코드] NumPy 2.0 호환성 패치: bool8이 없으면 bool_을 대신 쓰도록 설정
+if not hasattr(np, 'bool8'):
+    np.bool8 = np.bool_
 logger = logging.getLogger(__name__)
 # logging.basicConfig(level=logging.INFO)
 

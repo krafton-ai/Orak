@@ -1,0 +1,113 @@
+[2025-11-15 18:29:16,224] [INFO] [mcp_play_game.py:102] {'env_name': 'SuperMario', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_182916', 'runner': {'max_steps': 100}, 'env': {'task': 'Complete stage 1-1', 'input_modality': 'text', 'logging': False, 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_182916'}, 'agent': {'llm_name': 'meta-llama/Llama-3.2-1B-Instruct', 'api_key': 'token-abc123', 'api_base_url': 'http://127.0.0.1:11434/v1', 'temperature': 1.0, 'repetition_penalty': 1.0, 'agent_type': 'zeroshot_agent', 'prompt_path': 'mcp_agent_servers.super_mario.prompts.text.zeroshot_agent', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_182916'}, 'game_server': './src/mcp_game_servers/super_mario/server.py', 'agent_server': './src/mcp_agent_servers/super_mario/server.py'}
+[2025-11-15 18:29:16,226] [INFO] [llm.py:78] model: meta-llama/Llama-3.2-1B-Instruct
+[2025-11-15 18:29:16,226] [INFO] [llm.py:79] model_type: local
+[2025-11-15 18:29:20,709] [INFO] [eval.py:102] ================step: 1================
+[2025-11-15 18:29:24,869] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:24,953] [INFO] [eval.py:102] ================step: 2================
+[2025-11-15 18:29:25,586] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:25,720] [INFO] [eval.py:102] ================step: 3================
+[2025-11-15 18:29:27,509] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:27,666] [INFO] [eval.py:102] ================step: 4================
+[2025-11-15 18:29:30,171] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:30,349] [INFO] [eval.py:102] ================step: 5================
+[2025-11-15 18:29:32,711] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:32,862] [INFO] [eval.py:102] ================step: 6================
+[2025-11-15 18:29:34,621] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:34,769] [INFO] [eval.py:102] ================step: 7================
+[2025-11-15 18:29:36,324] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:36,484] [INFO] [eval.py:102] ================step: 8================
+[2025-11-15 18:29:38,355] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:38,549] [INFO] [eval.py:102] ================step: 9================
+[2025-11-15 18:29:41,131] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:41,326] [INFO] [eval.py:102] ================step: 10================
+[2025-11-15 18:29:43,365] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:43,581] [INFO] [eval.py:102] ================step: 11================
+[2025-11-15 18:29:45,671] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:45,818] [INFO] [eval.py:102] ================step: 12================
+[2025-11-15 18:29:47,945] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:48,092] [INFO] [eval.py:102] ================step: 13================
+[2025-11-15 18:29:49,346] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:49,484] [INFO] [eval.py:102] ================step: 14================
+[2025-11-15 18:29:51,640] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:51,777] [INFO] [eval.py:102] ================step: 15================
+[2025-11-15 18:29:54,626] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:54,786] [INFO] [eval.py:102] ================step: 16================
+[2025-11-15 18:29:56,815] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:29:56,953] [INFO] [eval.py:102] ================step: 17================
+[2025-11-15 18:29:59,833] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:00,009] [INFO] [eval.py:102] ================step: 18================
+[2025-11-15 18:30:00,693] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:00,864] [INFO] [eval.py:102] ================step: 19================
+[2025-11-15 18:30:01,484] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:01,627] [INFO] [eval.py:102] ================step: 20================
+[2025-11-15 18:30:02,644] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:02,769] [INFO] [eval.py:102] ================step: 21================
+[2025-11-15 18:30:04,128] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:04,266] [INFO] [eval.py:102] ================step: 22================
+[2025-11-15 18:30:05,769] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:05,930] [INFO] [eval.py:102] ================step: 23================
+[2025-11-15 18:30:07,998] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:08,148] [INFO] [eval.py:102] ================step: 24================
+[2025-11-15 18:30:09,597] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 18:30:09,742] [INFO] [eval.py:102] ================step: 25================
+[2025-11-15 20:40:15,528] [ERROR] [base_events.py:1758] an error occurred during closing of asynchronous generator <async_generator object stdio_client at 0x156113dc0>
+asyncgen: <async_generator object stdio_client at 0x156113dc0>
+  + Exception Group Traceback (most recent call last):
+  |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+    async with (
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+[2025-11-15 20:40:15,535] [ERROR] [base_events.py:1758] an error occurred during closing of asynchronous generator <async_generator object stdio_client at 0x1561c5040>
+asyncgen: <async_generator object stdio_client at 0x1561c5040>
+  + Exception Group Traceback (most recent call last):
+  |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    | GeneratorExit
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+    async with (
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+[2025-11-15 20:40:15,536] [CRITICAL] [mcp_play_game.py:71] Uncaught exception
+Traceback (most recent call last):
+  File "/Users/gangjuho/Desktop/Orak-release/scripts/mcp_play_game.py", line 145, in <module>
+    asyncio.run(main())
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt

@@ -1,0 +1,12 @@
+2025-11-19 15:16:06,589 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-19 15:16:06,699 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-19 15:16:06,708 - INFO - model: gpt-4o-mini
+2025-11-19 15:16:06,708 - INFO - model_type: chatgpt
+2025-11-19 15:16:06,795 - INFO - Input_modality: text
+2025-11-19 15:16:06,795 - INFO - Agent_type: reflection_planning_agent
+2025-11-19 15:16:07,760 - INFO - ================step: 1================
+2025-11-19 15:16:08,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-19 15:16:13,475 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-19 15:16:22,336 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-19 15:16:32,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-11-19 15:16:35,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"

@@ -1,0 +1,12 @@
+2025-11-25 16:35:19,806 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 16:35:20,234 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 16:35:20,325 - INFO - model: meta-llama/Llama-3.2-1B-Instruct
+2025-11-25 16:35:20,326 - INFO - model_type: local
+2025-11-25 16:35:22,353 - INFO - Input_modality: text
+2025-11-25 16:35:22,353 - INFO - Agent_type: zeroshot_agent
+2025-11-25 16:35:23,038 - INFO - ================step: 1================
+2025-11-25 16:35:23,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 404 Not Found"
+2025-11-25 16:35:24,158 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 404 Not Found"
+2025-11-25 16:35:25,733 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 404 Not Found"
+2025-11-25 16:35:28,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 404 Not Found"
+2025-11-25 16:35:33,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 404 Not Found"

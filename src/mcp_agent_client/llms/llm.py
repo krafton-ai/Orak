@@ -1,5 +1,5 @@
-import os
 import logging
+import os
 from typing import Any, Dict, Iterable, List, Union
 
 import numpy as np
@@ -16,27 +16,27 @@ from openai.types.chat.chat_completion import (
 from openai.types.chat.chat_completion import Choice as OpenAIChoice
 from transformers import AutoTokenizer
 
-from .openai_utils import (
-    MoneyManager, 
-    chat_completion_request, 
-    completion_request,
-)
 from .anthropic_utils import (
     chat_completion_request as anthropic_chat_completion_request,
 )
+from .constants import llama_chat_template
 from .deepseek_utils import (
     chat_completion_request as deepseek_chat_completion_request,
 )
 from .google_utils import (
     chat_completion_request as google_chat_completion_request,
 )
-
+from .openai_utils import (
+    MoneyManager,
+    chat_completion_request,
+    completion_request,
+)
 from .utils import CompletionFunc, Message, chat_messages_to_prompt
-from .constants import llama_chat_template
 
-#os.environ["TRANSFORMERS_CACHE"] = "./loaded_model_info"
+# os.environ["TRANSFORMERS_CACHE"] = "./loaded_model_info"
 
 logger = logging.getLogger(__name__)
+
 
 def load_model(
     model: str,
@@ -119,7 +119,9 @@ def load_model(
         )
         enc = tiktoken.get_encoding("cl100k_base")
     elif model_type == "local":
-        assert (api_key is not None) and (api_base_url is not None), "API key and base URL must be provided for local models."
+        assert (api_key is not None) and (api_base_url is not None), (
+            "API key and base URL must be provided for local models."
+        )
         llm = LocalBase(
             model=model,
             ctx_manager=ctx_manager,
@@ -139,6 +141,7 @@ def load_model(
         "tokenizer": enc,
         "ctx_manager": ctx_manager,
     }
+
 
 # ChatGPT having tools
 class ChatGPTBase:
@@ -177,7 +180,9 @@ class ChatGPTBase:
 
         if "o1" in self.model or "o3" in self.model:
             self.temperature = None
-            logger.info(f"Temperature is not supported and set to None for reasoning models (model name: {self.model}).")
+            logger.info(
+                f"Temperature is not supported and set to None for reasoning models (model name: {self.model})."
+            )
 
     def cutoff(self, message: Union[str, dict], budget: int) -> str:
         if isinstance(message, dict):
@@ -191,7 +196,7 @@ class ChatGPTBase:
         return message
 
     def manage_length(self, messages: List[Message]) -> None:
-        # TODO: implement this 
+        # TODO: implement this
         # last_message = messages[-1]["content"]
         # if len(messages) > 1:
         #     previous_tokens_length = 0
@@ -368,7 +373,8 @@ class DeepseekBase:
             "response": response,
             "function_results": None,
         }
-    
+
+
 # Gemini
 class GeminiBase:
     def __init__(
@@ -393,7 +399,7 @@ class GeminiBase:
             max_tokens=self.max_tokens,
             **kwargs,
         )
-        #self.ctx_manager(response) # No response.usage in gemini
+        # self.ctx_manager(response) # No response.usage in gemini
         return response
 
     def __call__(
@@ -408,6 +414,7 @@ class GeminiBase:
             "response": response,
             "function_results": None,
         }
+
 
 # Llama2 Model Base
 class LocalBase:
@@ -438,7 +445,7 @@ class LocalBase:
         self.desired_output_length = desired_output_length
         self.temperature = temperature
         self.repetition_penalty = repetition_penalty
-        
+
         finetune_base_model = [
             "meta-llama/Llama-3.2-1B-Instruct",
             "meta-llama/Llama-3.2-3B-Instruct",
@@ -450,7 +457,13 @@ class LocalBase:
                 self.tok = AutoTokenizer.from_pretrained(base_model)
                 break
         if not is_finetune:
-            self.tok = AutoTokenizer.from_pretrained(self.model)
+            #self.tok = AutoTokenizer.from_pretrained(self.model)
+            # [수정 후] 에러가 나면 공개된 Llama-3 토크나이저를 대신 사용합니다.
+            try:
+                self.tok = AutoTokenizer.from_pretrained(self.model)
+            except OSError:
+                print("로컬 모델 토크나이저 로딩 실패, 대체 토크나이저(Unsloth Llama-3)를 사용합니다.")
+                self.tok = AutoTokenizer.from_pretrained("unsloth/llama-3-8b-Instruct")
 
         if self.model.startswith("meta-llama/Llama-3.2"):
             self.tok.chat_template = llama_chat_template
@@ -467,16 +480,10 @@ class LocalBase:
             previous_tokens_length = 0
             for msg in messages[:-1]:
                 if "content" in msg.keys() and msg["content"] is not None:
-                    previous_tokens_length += len(
-                        self.enc.encode(msg["content"])
-                    )
+                    previous_tokens_length += len(self.enc.encode(msg["content"]))
         else:
             previous_tokens_length = 0
-        budget = (
-            self.max_budget
-            - self.desired_output_length
-            - previous_tokens_length
-        )
+        budget = self.max_budget - self.desired_output_length - previous_tokens_length
         messages[-1]["content"] = self.cutoff(last_message, budget)
 
     def chat(
@@ -511,8 +518,8 @@ class LocalBase:
             "### ASSISTANT",
             "### SYSTEM",
             "<extra_id_1>",
-            #"###",
-            #"#",
+            # "###",
+            # "#",
         ],
         n: int = 1,
         max_tokens: int | None = None,
@@ -524,32 +531,24 @@ class LocalBase:
                 messages = messages[1:]
             for message in messages:
                 if message["role"] == "user":
-                    message[
-                        "content"
-                    ] = f'{system_message["content"]}\n{message["content"]}'
+                    message["content"] = (
+                        f"{system_message['content']}\n{message['content']}"
+                    )
 
         if "SmolLM" in self.model:
             new_messages = []
             if messages[0]["role"] == "system":
                 new_user_message = (
-                    "\n\n".join(
-                        [message["content"] for message in messages[1:-2]]
-                    )
+                    "\n\n".join([message["content"] for message in messages[1:-2]])
                     if messages[-1]["role"] == "assistant"
-                    else "\n\n".join(
-                        [message["content"] for message in messages[1:-1]]
-                    )
+                    else "\n\n".join([message["content"] for message in messages[1:-1]])
                 )
                 new_messages.append(messages[0])
             else:
                 new_user_message = (
-                    "\n\n".join(
-                        [message["content"] for message in messages[:-2]]
-                    )
+                    "\n\n".join([message["content"] for message in messages[:-2]])
                     if messages[-1]["role"] == "assistant"
-                    else "\n\n".join(
-                        [message["content"] for message in messages[:-1]]
-                    )
+                    else "\n\n".join([message["content"] for message in messages[:-1]])
                 )
             if messages[-1]["role"] == "assistant":
                 new_messages.append(
@@ -600,8 +599,8 @@ class LocalBase:
                     ),
                     finish_reason=choice.finish_reason,
                     index=choice.index,
-                    logprobs=choice.logprobs,
-                    stop_reason=choice.stop_reason,
+                    logprobs=None,
+                    stop_reason=choice.finish_reason,
                 )
             )
         return_response = OpenAIChatCompletion(

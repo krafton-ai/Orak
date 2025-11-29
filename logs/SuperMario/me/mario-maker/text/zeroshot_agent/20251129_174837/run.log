@@ -1,0 +1,9 @@
+2025-11-29 17:48:39,064 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-29 17:48:39,474 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-29 17:48:39,573 - INFO - model: me/mario-maker
+2025-11-29 17:48:39,573 - INFO - model_type: local
+2025-11-29 17:48:41,346 - INFO - Input_modality: text
+2025-11-29 17:48:41,347 - INFO - Agent_type: zeroshot_agent
+2025-11-29 17:48:41,800 - INFO - ================step: 1================
+2025-11-29 17:48:50,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+2025-11-29 17:48:50,730 - INFO - executing actions: SuperMarioAction(values={'n_jumps': 1})

@@ -1,0 +1,4 @@
+2025-11-25 16:03:46,165 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 16:03:46,586 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-11-25 16:03:46,678 - INFO - model: meta-llama/Llama-3.2-1B-Instruct
+2025-11-25 16:03:46,679 - INFO - model_type: local

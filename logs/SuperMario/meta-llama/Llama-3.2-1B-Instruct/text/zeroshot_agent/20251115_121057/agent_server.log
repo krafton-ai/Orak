@@ -1,0 +1,6 @@
+[2025-11-15 12:11:01,311] [INFO] [base_server.py:269] config_path: logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_121057/config_agent.yaml
+[2025-11-15 12:11:01,494] [INFO] [posthog.py:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-11-15 12:11:01,608] [INFO] [posthog.py:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-11-15 12:11:01,625] [INFO] [server.py:534] Processing request of type ListToolsRequest
+[2025-11-15 12:11:02,562] [INFO] [server.py:534] Processing request of type CallToolRequest
+[2025-11-15 12:11:02,568] [INFO] [server.py:534] Processing request of type CallToolRequest

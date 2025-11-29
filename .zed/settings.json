@@ -1,0 +1,7 @@
+{
+  "languages": {
+    "python": {
+      "runtime": "/opt/anaconda3/envs/orak/bin/python"
+    }
+  }
+}

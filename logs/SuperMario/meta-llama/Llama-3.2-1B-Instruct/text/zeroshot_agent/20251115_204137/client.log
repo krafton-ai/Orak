@@ -1,0 +1,158 @@
+[2025-11-15 20:41:37,039] [INFO] [mcp_play_game.py:102] {'env_name': 'SuperMario', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137', 'runner': {'max_steps': 100}, 'env': {'task': 'Complete stage 1-1', 'input_modality': 'text', 'logging': False, 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137'}, 'agent': {'llm_name': 'meta-llama/Llama-3.2-1B-Instruct', 'api_key': 'token-abc123', 'api_base_url': 'http://127.0.0.1:11434/v1', 'temperature': 1.0, 'repetition_penalty': 1.0, 'agent_type': 'zeroshot_agent', 'prompt_path': 'mcp_agent_servers.super_mario.prompts.text.zeroshot_agent', 'log_path': 'logs/SuperMario/meta-llama/Llama-3.2-1B-Instruct/text/zeroshot_agent/20251115_204137'}, 'game_server': './src/mcp_game_servers/super_mario/server.py', 'agent_server': './src/mcp_agent_servers/super_mario/server.py'}
+[2025-11-15 20:41:37,040] [INFO] [llm.py:78] model: meta-llama/Llama-3.2-1B-Instruct
+[2025-11-15 20:41:37,040] [INFO] [llm.py:79] model_type: local
+[2025-11-15 20:41:41,586] [INFO] [eval.py:102] ================step: 1================
+[2025-11-15 20:41:50,632] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:41:50,704] [INFO] [eval.py:102] ================step: 2================
+[2025-11-15 20:41:51,345] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:41:51,481] [INFO] [eval.py:102] ================step: 3================
+[2025-11-15 20:41:53,595] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:41:53,740] [INFO] [eval.py:102] ================step: 4================
+[2025-11-15 20:41:55,170] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:41:55,286] [INFO] [eval.py:102] ================step: 5================
+[2025-11-15 20:41:57,151] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:41:57,270] [INFO] [eval.py:102] ================step: 6================
+[2025-11-15 20:42:00,315] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:00,440] [INFO] [eval.py:102] ================step: 7================
+[2025-11-15 20:42:02,984] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:03,134] [INFO] [eval.py:102] ================step: 8================
+[2025-11-15 20:42:05,712] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:05,754] [INFO] [eval.py:102] ================step: 9================
+[2025-11-15 20:42:08,009] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:08,055] [INFO] [eval.py:102] ================step: 10================
+[2025-11-15 20:42:12,166] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:12,297] [INFO] [eval.py:102] ================step: 11================
+[2025-11-15 20:42:14,343] [INFO] [_client.py:1025] HTTP Request: POST http://127.0.0.1:11434/v1/completions "HTTP/1.1 200 OK"
+[2025-11-15 20:42:14,523] [ERROR] [base_events.py:1758] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-10' coro=<AsyncExitStack.aclose() done, defined at /opt/anaconda3/envs/orak/lib/python3.10/contextlib.py:654> exception=RuntimeError('Attempted to exit cancel scope in a different task than it was entered in')>
+  + Exception Group Traceback (most recent call last):
+  |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 781, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 785, in __aexit__
+      |     raise exc_val
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 753, in __aexit__
+      |     await self._on_completed_fut
+      | asyncio.exceptions.CancelledError
+      | 
+      | During handling of the above exception, another exception occurred:
+      | 
+      | Traceback (most recent call last):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+      |     yield read_stream, write_stream
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 697, in __aexit__
+      |     cb_suppress = await cb(*exc_details)
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/shared/session.py", line 210, in __aexit__
+      |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+      |     if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+      |     raise RuntimeError(
+      | RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+      | 
+      | During handling of the above exception, another exception occurred:
+      | 
+      | Traceback (most recent call last):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 785, in __aexit__
+      |     raise exc_val
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+      |     async with (
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 1075, in aclose
+      |     await self._stdin.aclose()
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 1062, in aclose
+      |     await AsyncIOBackend.checkpoint()
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2341, in checkpoint
+      |     await sleep(0)
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py", line 596, in sleep
+      |     await __sleep0()
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py", line 590, in __sleep0
+      |     yield
+      | asyncio.exceptions.CancelledError
+      | 
+      | During handling of the above exception, another exception occurred:
+      | 
+      | Traceback (most recent call last):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 697, in __aexit__
+      |     cb_suppress = await cb(*exc_details)
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 217, in __aexit__
+      |     await self.gen.athrow(typ, value, traceback)
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+      |     async with (
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+      |     if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+      |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+      |     raise RuntimeError(
+      | RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+      +------------------------------------
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 173, in stdio_client
+    |     yield read_stream, write_stream
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 697, in __aexit__
+    |     cb_suppress = await cb(*exc_details)
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/shared/session.py", line 210, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    |     if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+    |   File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    |     raise RuntimeError(
+    | RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 656, in aclose
+    await self.__aexit__(None, None, None)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 714, in __aexit__
+    raise exc_details[1]
+  File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 697, in __aexit__
+    cb_suppress = await cb(*exc_details)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/contextlib.py", line 217, in __aexit__
+    await self.gen.athrow(typ, value, traceback)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/mcp/client/stdio/__init__.py", line 166, in stdio_client
+    async with (
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 787, in __aexit__
+    if self.cancel_scope.__exit__(type(exc), exc, exc.__traceback__):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 459, in __exit__
+    raise RuntimeError(
+RuntimeError: Attempted to exit cancel scope in a different task than it was entered in
+[2025-11-15 20:42:14,530] [CRITICAL] [mcp_play_game.py:71] Uncaught exception
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py", line 432, in wait_for
+    await waiter
+asyncio.exceptions.CancelledError: Cancelled via cancel scope 15af0eec0 by <Task pending name='Task-10' coro=<AsyncExitStack.aclose() running at /opt/anaconda3/envs/orak/lib/python3.10/contextlib.py:656> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py:387]>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gangjuho/Desktop/Orak-release/scripts/mcp_play_game.py", line 113, in main
+    score, step = await runner.mcp_play(
+  File "/Users/gangjuho/Desktop/Orak-release/src/mcp_agent_client/runner/eval.py", line 148, in mcp_play
+    await self.client.cleanup()
+  File "/Users/gangjuho/Desktop/Orak-release/src/mcp_agent_client/base_client.py", line 261, in cleanup
+    await asyncio.wait_for(self.exit_stack.aclose(), timeout=5)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py", line 441, in wait_for
+    await _cancel_and_wait(fut, loop=loop)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py", line 518, in _cancel_and_wait
+    await waiter
+asyncio.exceptions.CancelledError: Cancelled via cancel scope 15af0eec0 by <Task pending name='Task-10' coro=<AsyncExitStack.aclose() running at /opt/anaconda3/envs/orak/lib/python3.10/contextlib.py:656> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /opt/anaconda3/envs/orak/lib/python3.10/asyncio/tasks.py:387]>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gangjuho/Desktop/Orak-release/scripts/mcp_play_game.py", line 145, in <module>
+    asyncio.run(main())
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/anaconda3/envs/orak/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+asyncio.exceptions.CancelledError
