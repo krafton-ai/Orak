@@ -12,7 +12,7 @@ env:
 # Agent configuration
 agent: 
   debug_mode: false
-  llm_name: gpt-4o-mini
+  llm_name: HuggingFaceTB/SmolLM3-3B #gpt-4o-mini
   api_key: "token-abc123"
   api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
   temperature: 0.1

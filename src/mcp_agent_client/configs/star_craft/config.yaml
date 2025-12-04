@@ -20,7 +20,7 @@ env:
 
 # agent configuration
 agent:
-  llm_name: gpt-4o-mini
+  llm_name: HuggingFaceTB/SmolLM3-3B #gpt-4o-mini
   # llm_name: deepseek-reasoner
   # llm_name: claude-3-7-sonnet-20250219
   # llm_name: gemini-2.5-pro-preview-03-25

@@ -23,7 +23,7 @@ env:
 
 # agent configuration
 agent:
-  llm_name: gpt-4o #Llama-3.2-1B-Instruct
+  llm_name: HuggingFaceTB/SmolLM3-3B #gpt-4o #Llama-3.2-1B-Instruct
   api_key: "token-abc123"
   api_base_url: "http://YOUR_LOCAL_IP:PORT/v1"
   temperature: 0.3

@@ -14,7 +14,7 @@ env:
 
 # agent configuration
 agent:
-  llm_name: gpt-4o
+  llm_name: HuggingFaceTB/SmolLM3-3B #gpt-4o
   api_key: "token-abc123"
   api_base_url: "http://100.66.5.135:8000/v1"
   temperature: 0.0
