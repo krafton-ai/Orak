@@ -58,7 +58,7 @@ Position of all objects:
 
 You will receive the current game state for the Mario's last action.
 Your job is to analyze the state, and figure out a safe and efficient long-term path forward, avoiding obstacles whenever possible.
-You should respond precise, consie, and strategic descriptions of *cations* and *subtask (plan)* to do so.
+You should respond with precise, concise, and strategic descriptions of *cautions* and *subtask (plan)* to do so.
 
 You MUST only respond in the format as below:
 ### Cautions
