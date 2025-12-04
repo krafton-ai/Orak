@@ -34,7 +34,8 @@ mcp[cli]
 transformers
 tenacity
 termcolor
-langchain-openai
+# langchain-openai
+langchain-huggingface==1.1.0
 langchain-chroma
 dacite
 pygame 

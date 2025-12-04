@@ -3,13 +3,16 @@ from datetime import datetime
 import json
 import uuid
 import logging
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-from mcp_agent_servers.setup_openai import setup_openai
+#from mcp_agent_servers.setup_openai import setup_openai
 
 logger = logging.getLogger(__name__)
 
-setup_openai()
+#setup_openai()
+
+embedding_model_id = "avsolatorio/GIST-all-MiniLM-L6-v2"
 
 class GenericMemory:
     def __init__(self, path: str):
@@ -20,7 +23,7 @@ class GenericMemory:
         self.save_path = f"data/long_term_memory/{path.replace('logs/', '', 1)}/"
         self.vectordb = Chroma(
             collection_name="long_term_memory",
-            embedding_function=OpenAIEmbeddings(),
+            embedding_function=HuggingFaceEmbeddings(model_name=embedding_model_id),
             persist_directory=self.save_path,
         )
         self.retrieval_top_k = 3
